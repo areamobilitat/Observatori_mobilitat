@@ -1,0 +1,252 @@
+/* ─── TAB: PROBABILITAT D'ACCIDENTS ────────────────────────────────────────── */
+
+.probability-page {
+  --prob-bg: #111217;
+  --prob-panel: #181b1f;
+  --prob-border: #2c2e33;
+  --prob-text: #d8d9da;
+  --prob-muted: #8e8e8e;
+  background: var(--prob-bg);
+  color: var(--prob-text);
+  min-height: calc(100vh - 120px);
+  border-radius: 10px;
+  padding: 16px;
+  margin: -16px;
+}
+
+.probability-hero,
+.probability-overview,
+.probability-toolbar {
+  background: #161719;
+  border: 1px solid var(--prob-border);
+  border-radius: 3px;
+}
+
+.probability-hero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 24px;
+  margin-bottom: 8px;
+}
+
+.probability-hero__kicker {
+  color: #ff7800;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  margin-bottom: 7px;
+}
+
+.probability-hero h2 {
+  color: #f4f4f4;
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 0 0 8px;
+}
+
+.probability-hero p {
+  color: var(--prob-muted);
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 720px;
+  margin: 0;
+}
+
+.probability-refresh {
+  flex-shrink: 0;
+  border: 1px solid #3d4149;
+  background: #22252b;
+  color: #d8d9da;
+  border-radius: 4px;
+  padding: 9px 13px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+}
+.probability-refresh:hover { background: #2c2e33; }
+.probability-refresh:disabled { opacity: .55; cursor: wait; }
+
+.probability-overview {
+  padding: 13px 16px 15px;
+  margin-bottom: 8px;
+}
+
+.probability-overview__title {
+  display: flex;
+  justify-content: space-between;
+  color: #73bf69;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .6px;
+  margin-bottom: 13px;
+}
+.probability-overview__title small { color: #6e6e6e; font-weight: 400; letter-spacing: 0; }
+
+.probability-kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.probability-kpis > div {
+  border-left: 2px solid #ff7800;
+  background: #1b1e22;
+  padding: 10px 12px;
+  min-height: 72px;
+}
+.probability-kpis > div:nth-child(2) { border-left-color: #5794f2; }
+.probability-kpis > div:nth-child(3) { border-left-color: #73bf69; }
+.probability-kpis > div:nth-child(4) { border-left-color: #b877d9; }
+.probability-kpis span,
+.probability-kpis small { display: block; color: var(--prob-muted); font-size: 11px; }
+.probability-kpis strong { display: block; color: #f4f4f4; font-size: 22px; margin: 4px 0; }
+.probability-kpis small { color: #6e6e6e; font-size: 10px; }
+
+.probability-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  margin-bottom: 8px;
+}
+.probability-toolbar__label {
+  color: #8e8e8e;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .7px;
+  margin-right: auto;
+}
+.probability-toolbar input,
+.probability-toolbar select {
+  background: #22252b;
+  color: #d8d9da;
+  border: 1px solid #363940;
+  border-radius: 3px;
+  padding: 7px 9px;
+  font-size: 11px;
+  outline: none;
+}
+.probability-toolbar input { width: 165px; }
+.probability-toolbar input:focus,
+.probability-toolbar select:focus { border-color: #5794f2; }
+
+.probability-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.prob-dashboard {
+  background: var(--prob-panel);
+  border: 1px solid var(--prob-border);
+  border-radius: 3px;
+  padding: 14px;
+  min-width: 0;
+}
+.prob-dashboard__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid var(--prob-border);
+  padding-bottom: 11px;
+  margin-bottom: 11px;
+}
+.prob-dashboard__eyebrow {
+  color: #6e6e6e;
+  font-size: 9px;
+  letter-spacing: .8px;
+  margin-bottom: 4px;
+}
+.prob-dashboard h3 { color: #f1f1f1; font-size: 18px; margin: 0; }
+.prob-risk {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 7px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.risk--very-high { color: #f2495c; }
+.risk--high { color: #ff7800; }
+.risk--medium { color: #fade2a; }
+.risk--low { color: #73bf69; }
+.risk--unknown { color: #7f8c8d; }
+.prob-risk__dot { width: 6px; height: 6px; border-radius: 50%; }
+
+.prob-dashboard__metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.prob-metric { min-width: 0; }
+.prob-metric__label {
+  display: block;
+  color: var(--prob-muted);
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.prob-metric strong { display: block; color: #f4f4f4; font-size: 21px; margin: 5px 0 2px; }
+.prob-metric__note { display: block; color: #62656a; font-size: 9px; line-height: 1.3; }
+.prob-value--orange { color: #ff7800 !important; }
+
+.prob-dashboard__visuals { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.prob-gauge__header,
+.prob-weather__header { display: flex; justify-content: space-between; gap: 8px; color: #8e8e8e; font-size: 10px; margin-bottom: 7px; }
+.prob-gauge__header strong,
+.prob-weather__header strong { color: #d8d9da; font-size: 11px; }
+.prob-gauge__track,
+.prob-weather__track { height: 8px; background: #282b31; border-radius: 2px; overflow: hidden; }
+.prob-gauge__fill,
+.prob-weather__fill { height: 100%; border-radius: 2px; transition: width .4s ease; }
+.prob-gauge__scale { display: flex; justify-content: space-between; color: #55585d; font-size: 9px; margin-top: 4px; }
+.prob-weather__fill { background: #5794f2; }
+
+.prob-dashboard__footer {
+  display: flex;
+  justify-content: space-between;
+  color: #5f6267;
+  border-top: 1px solid var(--prob-border);
+  margin-top: 13px;
+  padding-top: 9px;
+  font-size: 9px;
+}
+.prob-dashboard__footer span:first-child { color: #73bf69; font-weight: 700; letter-spacing: .4px; }
+
+.probability-state {
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  color: #d8d9da;
+  text-align: center;
+}
+.probability-state span { color: #8e8e8e; font-size: 12px; }
+.probability-state--error strong { color: #f2495c; }
+.probability-state button { margin-top: 7px; background: #22252b; color: #d8d9da; border: 1px solid #3d4149; border-radius: 4px; padding: 8px 12px; cursor: pointer; }
+.probability-spinner { width: 30px; height: 30px; border: 3px solid #2c2e33; border-top-color: #ff7800; border-radius: 50%; animation: probSpin .75s linear infinite; }
+@keyframes probSpin { to { transform: rotate(360deg); } }
+
+@media (max-width: 900px) {
+  .probability-kpis { grid-template-columns: repeat(2, 1fr); }
+  .probability-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 620px) {
+  .probability-page { margin: -10px; padding: 10px; }
+  .probability-hero { align-items: flex-start; flex-direction: column; padding: 16px; }
+  .probability-toolbar { align-items: stretch; flex-direction: column; }
+  .probability-toolbar__label { margin-right: 0; }
+  .probability-toolbar input { width: auto; }
+  .prob-dashboard__visuals { grid-template-columns: 1fr; gap: 12px; }
+  .probability-overview__title small { display: none; }
+}

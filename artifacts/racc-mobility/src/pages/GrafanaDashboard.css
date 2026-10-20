@@ -1,0 +1,211 @@
+/* ── Grafana dark theme ─────────────────────────────────── */
+.gf-root {
+  min-height: 100vh;
+  background: #111217;
+  color: #d8d9da;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── top bar ─────────────────────────────────────────────── */
+.gf-topbar {
+  height: 48px;
+  background: #161719;
+  border-bottom: 1px solid #2c2e33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  gap: 12px;
+}
+
+.gf-topbar__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gf-logo {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.gf-topbar__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e6e6e6;
+  white-space: nowrap;
+}
+
+.gf-topbar__tag {
+  background: rgba(255,120,0,0.18);
+  color: #ff7800;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(255,120,0,0.3);
+}
+
+.gf-topbar__right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gf-loading-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #ff7800;
+  border-radius: 50%;
+  animation: gfPulse 1s ease-in-out infinite;
+}
+
+@keyframes gfPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(0.7); }
+}
+
+.gf-timepicker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #22252b;
+  border: 1px solid #2c2e33;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #d8d9da;
+  cursor: default;
+}
+
+.gf-timepicker__chevron { font-size: 10px; color: #8e8e8e; }
+
+.gf-btn-refresh {
+  background: #22252b;
+  border: 1px solid #2c2e33;
+  color: #d8d9da;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.15s;
+  line-height: 1;
+}
+.gf-btn-refresh:hover { background: #2c2e33; }
+
+.gf-last-refresh {
+  font-size: 11px;
+  color: #6e6e6e;
+  white-space: nowrap;
+}
+
+/* ── grid ────────────────────────────────────────────────── */
+.gf-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding: 12px;
+  flex: 1;
+}
+
+/* ── panels ──────────────────────────────────────────────── */
+.gf-panel {
+  background: #181b1f;
+  border: 1px solid #2c2e33;
+  border-radius: 2px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.gf-span-2 { grid-column: span 2; }
+.gf-span-4 { grid-column: span 4; }
+
+.gf-panel__title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #8e8e8e;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.gf-panel__badge {
+  background: rgba(255,255,255,0.07);
+  color: #6e6e6e;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  border: 1px solid #2c2e33;
+}
+
+/* ── stat panel ──────────────────────────────────────────── */
+.gf-stat {
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100px;
+}
+
+.gf-stat__value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+.gf-stat__unit {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-left: 2px;
+}
+
+.gf-stat__sub {
+  font-size: 11px;
+  color: #6e6e6e;
+  margin-top: 4px;
+}
+
+/* ── footer ──────────────────────────────────────────────── */
+.gf-footer {
+  background: #161719;
+  border-top: 1px solid #2c2e33;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #4e4e4e;
+}
+
+/* ── recharts overrides ──────────────────────────────────── */
+.gf-root .recharts-surface text { fill: #8e8e8e; }
+.gf-root .recharts-cartesian-axis-line,
+.gf-root .recharts-cartesian-axis-tick-line { stroke: #2c2e33; }
+.gf-root .recharts-legend-item-text { color: #8e8e8e !important; }
+
+/* ── responsive ──────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .gf-grid { grid-template-columns: repeat(2, 1fr); }
+  .gf-span-4 { grid-column: span 2; }
+}
+
+@media (max-width: 580px) {
+  .gf-grid { grid-template-columns: 1fr; }
+  .gf-span-2, .gf-span-4 { grid-column: span 1; }
+  .gf-last-refresh { display: none; }
+}

@@ -1,0 +1,263 @@
+/* ─── TAB: AFORAMENT ───────────────────────────────────────────────────────── */
+
+.aforament-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aforament-summary {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 28px;
+  background: linear-gradient(135deg, #fff9d8 0%, #ffffff 56%, #eef6ff 100%);
+  border: 1px solid #e8edf4;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(20, 44, 76, 0.07);
+}
+
+.aforament-kicker {
+  display: block;
+  margin-bottom: 7px;
+  color: #be8b00;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.aforament-summary h2 {
+  margin: 0;
+  color: #17233b;
+  font-size: 28px;
+}
+
+.aforament-summary p {
+  margin: 7px 0 0;
+  color: #697386;
+  font-size: 14px;
+}
+
+.aforament-stats {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.aforament-stat {
+  min-width: 110px;
+  padding-left: 20px;
+  border-left: 1px solid #dce3ec;
+}
+
+.aforament-stat strong {
+  display: block;
+  color: #17233b;
+  font-size: 22px;
+}
+
+.aforament-stat span {
+  display: block;
+  margin-top: 4px;
+  color: #7b8798;
+  font-size: 12px;
+}
+
+.aforament-map-section {
+  padding: 20px 24px 14px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+}
+
+.aforament-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.aforament-section-header h3 {
+  margin: 0;
+  color: #17233b;
+  font-size: 19px;
+}
+
+.aforament-section-header p {
+  margin: 5px 0 0;
+  color: #7b8798;
+  font-size: 13px;
+}
+
+.aforament-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: #667085;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.aforament-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.aforament-legend i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.aforament-map-wrapper {
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.aforament-map {
+  z-index: 1;
+  width: 100%;
+  height: 560px;
+}
+
+.aforament-source {
+  padding-top: 10px;
+  color: #8792a2;
+  font-size: 11px;
+}
+
+.aforament-source a {
+  color: #496d9b;
+}
+
+.aforament-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 310px;
+  gap: 14px;
+  color: #6b7280;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.aforament-error {
+  color: #991b1b;
+  background: #fff5f5;
+  border-color: #fecaca;
+}
+
+.aforament-popup {
+  min-width: 210px;
+}
+
+.aforament-popup-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.aforament-popup-heading strong {
+  color: #17233b;
+  font-size: 15px;
+}
+
+.aforament-popup-heading span {
+  color: #7b8798;
+  font-size: 11px;
+}
+
+.imd-values {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 9px 0 7px;
+}
+
+.imd-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.imd-entry span {
+  color: #7b8798;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.imd-entry strong {
+  color: #17233b;
+  font-size: 22px;
+}
+
+.imd-entry small {
+  color: #7b8798;
+  font-size: 10px;
+}
+
+.aforament-popup dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px 12px;
+  margin: 0;
+}
+
+.aforament-popup dl div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.aforament-popup dt {
+  color: #8a94a6;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.aforament-popup dd {
+  margin: 0;
+  color: #374151;
+  font-size: 12px;
+}
+
+.aforament-tram {
+  margin: 9px 0 0;
+  padding-top: 8px;
+  color: #64748b;
+  font-size: 11px;
+  border-top: 1px solid #e5e7eb;
+}
+
+@media (max-width: 900px) {
+  .aforament-summary,
+  .aforament-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .aforament-stats {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .aforament-stat {
+    min-width: 0;
+    padding-left: 12px;
+  }
+
+  .aforament-legend {
+    white-space: normal;
+  }
+}

@@ -1,0 +1,22 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies and caches
+node_modules/
+.pythonlibs/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+
+# Generated output and local databases
+**/dist/
+generated-artifacts/
+*.db
+*.sqlite
+*.sqlite3
+
+# OS/editor files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,113 @@
+/* ─── TAB: FACTORS EXTERNS ─────────────────────────────────────────────────── */
+
+.factors { display: flex; flex-direction: column; gap: 24px; }
+
+.factors-tabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border: 2px solid #e5e7eb;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  transition: all 0.2s;
+}
+
+.tab-btn.active {
+  background: #1a1a2e;
+  color: #f4d03f;
+  border-color: #1a1a2e;
+}
+
+.factors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.factor-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid #f0f0f0;
+  border-left: 4px solid #ddd;
+  transition: transform 0.2s ease;
+}
+
+.factor-card:hover { transform: translateY(-2px); }
+
+.factor-card__header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.factor-card__header h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 2px;
+}
+
+.factor-card__value {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.factor-card__desc {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.factors-causes {
+  background: #fff;
+  border-radius: 16px;
+  padding: 22px 24px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid #f0f0f0;
+}
+
+.factors-causes h3 {
+  font-size: 16px;
+  margin: 0 0 16px;
+  color: #1a1a2e;
+}
+
+.causes-list { display: flex; flex-direction: column; gap: 10px; }
+
+.cause-item {
+  display: grid;
+  grid-template-columns: 160px 1fr 40px;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.cause-label { color: #374151; font-weight: 500; truncate: true; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.cause-bar-wrap {
+  background: #f3f4f6;
+  border-radius: 6px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.cause-bar {
+  background: linear-gradient(90deg, #1a1a2e, #0f3460);
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.4s ease;
+}
+
+.cause-count { font-weight: 700; color: #1a1a2e; text-align: right; }

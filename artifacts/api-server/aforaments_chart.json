@@ -1,0 +1,5307 @@
+{
+  "source_file": "attached_assets/LLISTA_DE_CARRETERES_1789643742615.xlsx; attached_assets/Carreteres_Catalunya_(Ministeri_2024)_-_PK_amb_coordenades_1790072169852.xlsx",
+  "source_label": "Llistes d’aforaments RACC + Carreteres Catalunya (Ministeri 2024)",
+  "record_count": 551,
+  "records_with_coordinates": 551,
+  "unresolved_records": [
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-260R",
+      "pk_km": 0.137,
+      "imd": 5345,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 504.8,
+      "imd": 4306,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2A",
+      "pk_km": 723.0,
+      "imd": 4824,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 730.74,
+      "imd": 3324,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340A",
+      "pk_km": 1089.25,
+      "imd": 4216,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "A-2",
+      "pk_km": 693.75,
+      "imd": 183,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-260A",
+      "pk_km": 83.8,
+      "imd": 7787,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1187.95,
+      "imd": 18900,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1161.0,
+      "imd": 18092,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1212.31,
+      "imd": 28684,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 778.36,
+      "imd": 9139,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1242.13,
+      "imd": 20920,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1176.81,
+      "imd": 17399,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 586.15,
+      "imd": 45911,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1243.21,
+      "imd": 34982,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "A-2",
+      "pk_km": 733.375,
+      "imd": 5199,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 760.9,
+      "imd": 14914,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-155",
+      "pk_km": 0.3,
+      "imd": 2353,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2A",
+      "pk_km": 2.06,
+      "imd": 10559,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1157.08,
+      "imd": 16390,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1194.78,
+      "imd": 14516,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 770.74,
+      "imd": 8719,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "A-22-R-1",
+      "pk_km": 0.5,
+      "imd": 2540,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "A-2",
+      "pk_km": 693.75,
+      "imd": 33094,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340R",
+      "pk_km": 0.5,
+      "imd": 11810,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 747.52,
+      "imd": 5730,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 716.68,
+      "imd": 12071,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 712.65,
+      "imd": 11155,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 725.325,
+      "imd": 9581,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 749.2,
+      "imd": 20245,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 752.0,
+      "imd": 19406,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 759.2,
+      "imd": 17093,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 774.0,
+      "imd": 19444,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2A",
+      "pk_km": 2.8,
+      "imd": 16384,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2A",
+      "pk_km": 8.26,
+      "imd": 10448,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2A",
+      "pk_km": 719.58,
+      "imd": 14177,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "A-7",
+      "pk_km": 1137.87,
+      "imd": 15800,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "A-7",
+      "pk_km": 1164.04,
+      "imd": 42737,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1214.55,
+      "imd": 22761,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1205.65,
+      "imd": 18969,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "A-22-R2",
+      "pk_km": 0.5,
+      "imd": 1761,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 503.6,
+      "imd": 6864,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-420A",
+      "pk_km": 830.0,
+      "imd": 5902,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340A",
+      "pk_km": 1191.15,
+      "imd": 17089,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 683.26,
+      "imd": 23972,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340A",
+      "pk_km": 1203.5,
+      "imd": 136,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-2",
+      "pk_km": 687.9,
+      "imd": 22975,
+      "status": "NO_TROBAT"
+    },
+    {
+      "source": "Carreteres Catalunya · Ministeri 2024",
+      "carretera": "N-340",
+      "pk_km": 1219.75,
+      "imd": 5908,
+      "status": "NO_TROBAT"
+    }
+  ],
+  "aforaments": [
+    {
+      "chart_row": 2,
+      "carretera": "C-14",
+      "pk_km": 150.0,
+      "imd": 6627,
+      "latitud": 42.13232,
+      "longitud": 1.309513,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 3,
+      "carretera": "C-14",
+      "pk_km": 167.16,
+      "imd": 7383,
+      "latitud": 42.250799,
+      "longitud": 1.347498,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 4,
+      "carretera": "C-362",
+      "pk_km": 23.8,
+      "imd": 402,
+      "latitud": 42.1416779,
+      "longitud": 1.58473178,
+      "coordinate_source": "ICGC (referència C-462; C-362 no és al catàleg)",
+      "coordinate_note": "La carretera C-362 no consta al catàleg de geocodificació; la ubicació és una referència de C-462 al mateix PK."
+    },
+    {
+      "chart_row": 5,
+      "carretera": "L-401",
+      "pk_km": 1.0,
+      "imd": 286,
+      "latitud": 42.179468,
+      "longitud": 1.330044,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 6,
+      "carretera": "C-462",
+      "pk_km": 86.0,
+      "imd": 659,
+      "latitud": 42.34551659,
+      "longitud": 1.4816983,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 7,
+      "carretera": "L-511",
+      "pk_km": 38.0,
+      "imd": 328,
+      "latitud": 42.16505837,
+      "longitud": 1.29175135,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 8,
+      "carretera": "C-563",
+      "pk_km": 1.14,
+      "imd": 299,
+      "latitud": 42.237774,
+      "longitud": 1.573594,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 9,
+      "carretera": "C-563",
+      "pk_km": 1.14,
+      "imd": 255,
+      "latitud": 42.237774,
+      "longitud": 1.573594,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 11,
+      "carretera": "L-500",
+      "pk_km": 4.5,
+      "imd": 1655,
+      "latitud": 42.456187,
+      "longitud": 0.760232,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 12,
+      "carretera": "L-500",
+      "pk_km": 16.0,
+      "imd": 1774,
+      "latitud": 42.53417516,
+      "longitud": 0.83419008,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 13,
+      "carretera": "L-501",
+      "pk_km": 0.5,
+      "imd": 1330,
+      "latitud": 42.52794,
+      "longitud": 0.833696,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 19,
+      "carretera": "C-61",
+      "pk_km": 5.3,
+      "imd": 3068,
+      "latitud": 41.617725,
+      "longitud": 2.540707,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 20,
+      "carretera": "BP-5002",
+      "pk_km": 1.78,
+      "imd": 36135,
+      "latitud": 41.489506,
+      "longitud": 2.297471,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 21,
+      "carretera": "C-32",
+      "pk_km": 88.0,
+      "imd": 105756,
+      "latitud": 41.490209,
+      "longitud": 2.324847,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 24,
+      "carretera": "C-61",
+      "pk_km": 2.7,
+      "imd": 21654,
+      "latitud": 41.594224,
+      "longitud": 2.542832,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 25,
+      "carretera": "C-32",
+      "pk_km": 102.0,
+      "imd": 89275,
+      "latitud": 41.55532299,
+      "longitud": 2.44848333,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 26,
+      "carretera": "C-60",
+      "pk_km": 8.0,
+      "imd": 62385,
+      "latitud": 41.587217,
+      "longitud": 2.351113,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 27,
+      "carretera": "C-32",
+      "pk_km": 124.0,
+      "imd": 60082,
+      "latitud": 41.63530533,
+      "longitud": 2.67148071,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 28,
+      "carretera": "B-682",
+      "pk_km": 1.15,
+      "imd": 19649,
+      "latitud": 41.661651,
+      "longitud": 2.741726,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 29,
+      "carretera": "C-60",
+      "pk_km": 0.3,
+      "imd": 84021,
+      "latitud": 41.545063,
+      "longitud": 2.416423,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 32,
+      "carretera": "N-141c",
+      "pk_km": 14.0,
+      "imd": 3779,
+      "latitud": 41.774545,
+      "longitud": 1.964135,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 33,
+      "carretera": "C-59",
+      "pk_km": 25.5,
+      "imd": 4614,
+      "latitud": 41.710544,
+      "longitud": 2.154029,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 34,
+      "carretera": "N-141c",
+      "pk_km": 28.0,
+      "imd": 3313,
+      "latitud": 41.809477,
+      "longitud": 2.107355,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 35,
+      "carretera": "C-59",
+      "pk_km": 42.5,
+      "imd": 1014,
+      "latitud": 41.836745,
+      "longitud": 2.098232,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 36,
+      "carretera": "N-141c",
+      "pk_km": 18.147,
+      "imd": 4141,
+      "latitud": 41.793319,
+      "longitud": 1.996361,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 37,
+      "carretera": "B-124",
+      "pk_km": 37.0,
+      "imd": 1291,
+      "latitud": 41.782919,
+      "longitud": 2.000507,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 38,
+      "carretera": "C-59",
+      "pk_km": 34.4,
+      "imd": 5909,
+      "latitud": 41.775016,
+      "longitud": 2.107315,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 40,
+      "carretera": "T-350",
+      "pk_km": 1.5,
+      "imd": 5640,
+      "latitud": 40.717442,
+      "longitud": 0.51845,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 41,
+      "carretera": "TP-3318",
+      "pk_km": 1.8,
+      "imd": 1795,
+      "latitud": 40.560772,
+      "longitud": 0.464918,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 42,
+      "carretera": "T-331",
+      "pk_km": 19.16,
+      "imd": 4847,
+      "latitud": 40.751724,
+      "longitud": 0.502521,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 43,
+      "carretera": "TP-3311",
+      "pk_km": 15.0,
+      "imd": 2098,
+      "latitud": 40.642323,
+      "longitud": 0.37123,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 44,
+      "carretera": "TV-3319",
+      "pk_km": 7.0,
+      "imd": 1264,
+      "latitud": 40.60837037,
+      "longitud": 0.37319256,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 45,
+      "carretera": "C-12",
+      "pk_km": 2.32,
+      "imd": 3658,
+      "latitud": 40.704381,
+      "longitud": 0.564055,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 46,
+      "carretera": "TP-3318",
+      "pk_km": 9.1,
+      "imd": 5774,
+      "latitud": 40.54511145,
+      "longitud": 0.49396877,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 47,
+      "carretera": "C-103",
+      "pk_km": 3.0,
+      "imd": 1965,
+      "latitud": 40.68547,
+      "longitud": 0.52707,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 48,
+      "carretera": "T-332",
+      "pk_km": 12.0,
+      "imd": 4074,
+      "latitud": 40.580866,
+      "longitud": 0.439011,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 49,
+      "carretera": "T-344",
+      "pk_km": 3.2,
+      "imd": 7324,
+      "latitud": 40.701952,
+      "longitud": 0.554764,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 50,
+      "carretera": "T-331",
+      "pk_km": 10.3,
+      "imd": 3710,
+      "latitud": 40.67499167,
+      "longitud": 0.50939877,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 51,
+      "carretera": "TP-3311",
+      "pk_km": 4.05,
+      "imd": 3851,
+      "latitud": 40.694428,
+      "longitud": 0.475343,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 52,
+      "carretera": "TV-3319",
+      "pk_km": 3.0,
+      "imd": 1380,
+      "latitud": 40.601903,
+      "longitud": 0.416498,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 53,
+      "carretera": "TV-3405",
+      "pk_km": 5.0,
+      "imd": 4255,
+      "latitud": 40.705831,
+      "longitud": 0.635793,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 54,
+      "carretera": "TV-3403",
+      "pk_km": 6.0,
+      "imd": 3074,
+      "latitud": 40.709805,
+      "longitud": 0.649377,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 56,
+      "carretera": "C-12",
+      "pk_km": 174.63,
+      "imd": 3083,
+      "latitud": 41.82787778,
+      "longitud": 0.756284664,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 57,
+      "carretera": "C-13",
+      "pk_km": 41.77,
+      "imd": 1561,
+      "latitud": 41.868813,
+      "longitud": 0.86998,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 58,
+      "carretera": "C-148a",
+      "pk_km": 1.1,
+      "imd": 8257,
+      "latitud": 41.78714108,
+      "longitud": 0.8257861,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 59,
+      "carretera": "C-12",
+      "pk_km": 167.4,
+      "imd": 2781,
+      "latitud": 41.780674,
+      "longitud": 0.803996,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 60,
+      "carretera": "C-53",
+      "pk_km": 142.37,
+      "imd": 7876,
+      "latitud": 41.781685,
+      "longitud": 0.840928,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 61,
+      "carretera": "C-26",
+      "pk_km": 22.05,
+      "imd": 2541,
+      "latitud": 41.7882393,
+      "longitud": 0.78756539,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 62,
+      "carretera": "C-26",
+      "pk_km": 23.55,
+      "imd": 5781,
+      "latitud": 41.7798591,
+      "longitud": 0.80046348,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 63,
+      "carretera": "C-12",
+      "pk_km": 210.0,
+      "imd": 1338,
+      "latitud": 42.01054547,
+      "longitud": 0.87579097,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 64,
+      "carretera": "C-26",
+      "pk_km": 30.0,
+      "imd": 5699,
+      "latitud": 41.808454,
+      "longitud": 0.855154,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 65,
+      "carretera": "L-313",
+      "pk_km": 26.9,
+      "imd": 3502,
+      "latitud": 41.865466,
+      "longitud": 1.223195,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 66,
+      "carretera": "C-14",
+      "pk_km": 115.83,
+      "imd": 6206,
+      "latitud": 41.91019991,
+      "longitud": 1.17349622,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 67,
+      "carretera": "L-512",
+      "pk_km": 1.15,
+      "imd": 3899,
+      "latitud": 41.899316,
+      "longitud": 1.060169,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 68,
+      "carretera": "C-14",
+      "pk_km": 98.5,
+      "imd": 3669,
+      "latitud": 41.85989355,
+      "longitud": 1.05576607,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 69,
+      "carretera": "C-12",
+      "pk_km": 163.04,
+      "imd": 8008,
+      "latitud": 41.758445,
+      "longitud": 0.773394,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 72,
+      "carretera": "C-153",
+      "pk_km": 11.0,
+      "imd": 2687,
+      "latitud": 42.010409,
+      "longitud": 2.332335,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 73,
+      "carretera": "C-153",
+      "pk_km": 12.885,
+      "imd": 3875,
+      "latitud": 42.023142,
+      "longitud": 2.341234,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 74,
+      "carretera": "GI-520",
+      "pk_km": 4.5,
+      "imd": 1663,
+      "latitud": 41.857126,
+      "longitud": 2.352072,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 75,
+      "carretera": "C-153",
+      "pk_km": 4.515,
+      "imd": 15196,
+      "latitud": 41.96250506,
+      "longitud": 2.292370271,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 76,
+      "carretera": "C-37",
+      "pk_km": 150.5,
+      "imd": 17101,
+      "latitud": 42.011967,
+      "longitud": 2.268962,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 77,
+      "carretera": "BV-5303",
+      "pk_km": 7.4,
+      "imd": 4748,
+      "latitud": 41.83717,
+      "longitud": 2.263223,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 78,
+      "carretera": "BV-5305",
+      "pk_km": 4.2,
+      "imd": 2267,
+      "latitud": 41.847709,
+      "longitud": 2.257488,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 79,
+      "carretera": "B-520",
+      "pk_km": 2.2,
+      "imd": 6131,
+      "latitud": 41.9093587,
+      "longitud": 2.27873886,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 80,
+      "carretera": "C-62",
+      "pk_km": 2.0,
+      "imd": 7119,
+      "latitud": 41.942283,
+      "longitud": 2.14073311,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 81,
+      "carretera": "N-141c",
+      "pk_km": 46.825,
+      "imd": 3168,
+      "latitud": 41.880812,
+      "longitud": 2.23622,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 82,
+      "carretera": "C-25D",
+      "pk_km": 0.08,
+      "imd": 9029,
+      "latitud": 41.933725,
+      "longitud": 2.209871,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 83,
+      "carretera": "BV-5301",
+      "pk_km": 28.0,
+      "imd": 229,
+      "latitud": 41.81021,
+      "longitud": 2.339144,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 84,
+      "carretera": "BV-5303",
+      "pk_km": 11.28,
+      "imd": 737,
+      "latitud": 41.842105,
+      "longitud": 2.298158,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 85,
+      "carretera": "GI-543",
+      "pk_km": 15.0,
+      "imd": 577,
+      "latitud": 41.854144,
+      "longitud": 2.421472,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 86,
+      "carretera": "B-520",
+      "pk_km": 6.36,
+      "imd": 6391,
+      "latitud": 41.879073,
+      "longitud": 2.286366,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 87,
+      "carretera": "GI-544",
+      "pk_km": 1.0,
+      "imd": 577,
+      "latitud": 41.866014,
+      "longitud": 2.41951,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 88,
+      "carretera": "C-153",
+      "pk_km": 31.0,
+      "imd": 552,
+      "latitud": 42.034793,
+      "longitud": 2.459589,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 89,
+      "carretera": "B-520",
+      "pk_km": 2.8,
+      "imd": 10851,
+      "latitud": 41.90450265,
+      "longitud": 2.28138569,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 91,
+      "carretera": "C-1311",
+      "pk_km": 25.0,
+      "imd": 451,
+      "latitud": 42.157269,
+      "longitud": 0.888263,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 92,
+      "carretera": "C-1412b",
+      "pk_km": 55.35,
+      "imd": 3002,
+      "latitud": 42.1434181,
+      "longitud": 0.92737121,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 93,
+      "carretera": "C-13",
+      "pk_km": 84.627,
+      "imd": 3082,
+      "latitud": 42.151072,
+      "longitud": 0.895883,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 94,
+      "carretera": "C-1412b",
+      "pk_km": 29.5,
+      "imd": 1683,
+      "latitud": 42.055178,
+      "longitud": 1.089788,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 95,
+      "carretera": "L-503",
+      "pk_km": 2.68,
+      "imd": 927,
+      "latitud": 42.340489,
+      "longitud": 0.954166,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 96,
+      "carretera": "C-13",
+      "pk_km": 98.423,
+      "imd": 5595,
+      "latitud": 42.235757,
+      "longitud": 0.964718,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 98,
+      "carretera": "L-510",
+      "pk_km": 1.0,
+      "imd": 414,
+      "latitud": 42.52521085,
+      "longitud": 1.2461031,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 99,
+      "carretera": "C-147",
+      "pk_km": 132.45,
+      "imd": 157,
+      "latitud": 42.65769415,
+      "longitud": 1.08724003,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 100,
+      "carretera": "C-147",
+      "pk_km": 135.09,
+      "imd": 161,
+      "latitud": 42.67689333,
+      "longitud": 1.08455195,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 101,
+      "carretera": "C-28",
+      "pk_km": 62.0,
+      "imd": 1455,
+      "latitud": 42.63799101,
+      "longitud": 1.09861356,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 102,
+      "carretera": "C-13",
+      "pk_km": 157.36,
+      "imd": 2344,
+      "latitud": 42.602978,
+      "longitud": 1.129941,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 103,
+      "carretera": "C-13",
+      "pk_km": 141.95,
+      "imd": 2325,
+      "latitud": 42.49329341,
+      "longitud": 1.21218097,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 104,
+      "carretera": "L-504",
+      "pk_km": 2.4,
+      "imd": 1508,
+      "latitud": 42.509861,
+      "longitud": 1.228957,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 106,
+      "carretera": "C-66",
+      "pk_km": 51.425,
+      "imd": 15280,
+      "latitud": 42.16200534,
+      "longitud": 2.74585766,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 107,
+      "carretera": "C-66",
+      "pk_km": 35.5,
+      "imd": 38280,
+      "latitud": 42.043538,
+      "longitud": 2.821003,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 108,
+      "carretera": "GI-514",
+      "pk_km": 5.0,
+      "imd": 1435,
+      "latitud": 42.077571,
+      "longitud": 2.834101,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 109,
+      "carretera": "GIP-5121",
+      "pk_km": 4.0,
+      "imd": 2471,
+      "latitud": 42.156938,
+      "longitud": 2.773286,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 110,
+      "carretera": "GIP-5121",
+      "pk_km": 11.0,
+      "imd": 946,
+      "latitud": 42.191009,
+      "longitud": 2.805725,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 111,
+      "carretera": "GI-513",
+      "pk_km": 1.0,
+      "imd": 848,
+      "latitud": 42.106797,
+      "longitud": 2.798771,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 113,
+      "carretera": "C-1412b",
+      "pk_km": 29.5,
+      "imd": 1683,
+      "latitud": 42.055178,
+      "longitud": 1.089788,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 114,
+      "carretera": "C-1412b",
+      "pk_km": 55.35,
+      "imd": 3002,
+      "latitud": 42.1434181,
+      "longitud": 0.92737121,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 115,
+      "carretera": "L-503",
+      "pk_km": 2.68,
+      "imd": 927,
+      "latitud": 42.340489,
+      "longitud": 0.954166,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 116,
+      "carretera": "C-13",
+      "pk_km": 98.423,
+      "imd": 5595,
+      "latitud": 42.235757,
+      "longitud": 0.964718,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 117,
+      "carretera": "C-1311",
+      "pk_km": 25.0,
+      "imd": 451,
+      "latitud": 42.157269,
+      "longitud": 0.888263,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 118,
+      "carretera": "C-13",
+      "pk_km": 84.627,
+      "imd": 3082,
+      "latitud": 42.151072,
+      "longitud": 0.895883,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 120,
+      "carretera": "C-13",
+      "pk_km": 141.95,
+      "imd": 2325,
+      "latitud": 42.49329341,
+      "longitud": 1.21218097,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 121,
+      "carretera": "C-13",
+      "pk_km": 157.36,
+      "imd": 2344,
+      "latitud": 42.602978,
+      "longitud": 1.129941,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 122,
+      "carretera": "L-504",
+      "pk_km": 2.4,
+      "imd": 1508,
+      "latitud": 42.509861,
+      "longitud": 1.228957,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 123,
+      "carretera": "C-28",
+      "pk_km": 62.0,
+      "imd": 1455,
+      "latitud": 42.63799101,
+      "longitud": 1.09861356,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 124,
+      "carretera": "C-147",
+      "pk_km": 132.45,
+      "imd": 157,
+      "latitud": 42.65769415,
+      "longitud": 1.08724003,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 125,
+      "carretera": "L-510",
+      "pk_km": 1.0,
+      "imd": 414,
+      "latitud": 42.52521085,
+      "longitud": 1.2461031,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 126,
+      "carretera": "C-147",
+      "pk_km": 135.09,
+      "imd": 161,
+      "latitud": 42.67689333,
+      "longitud": 1.08455195,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 128,
+      "carretera": "GI-514",
+      "pk_km": 5.0,
+      "imd": 1435,
+      "latitud": 42.077571,
+      "longitud": 2.834101,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 129,
+      "carretera": "GI-513",
+      "pk_km": 1.0,
+      "imd": 848,
+      "latitud": 42.106797,
+      "longitud": 2.798771,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 130,
+      "carretera": "GIP-5121",
+      "pk_km": 4.0,
+      "imd": 2471,
+      "latitud": 42.156938,
+      "longitud": 2.773286,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 131,
+      "carretera": "GIP-5121",
+      "pk_km": 11.0,
+      "imd": 946,
+      "latitud": 42.191009,
+      "longitud": 2.805725,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 132,
+      "carretera": "C-66",
+      "pk_km": 35.5,
+      "imd": 38280,
+      "latitud": 42.043538,
+      "longitud": 2.821003,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 133,
+      "carretera": "C-66",
+      "pk_km": 51.425,
+      "imd": 15280,
+      "latitud": 42.16200534,
+      "longitud": 2.74585766,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 135,
+      "carretera": "L-200",
+      "pk_km": 1.3,
+      "imd": 11299,
+      "latitud": 41.61879185,
+      "longitud": 0.88846373,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 138,
+      "carretera": "LV-2001",
+      "pk_km": 0.93,
+      "imd": 5420,
+      "latitud": 41.624055,
+      "longitud": 0.884122,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 139,
+      "carretera": "C-233",
+      "pk_km": 77.8,
+      "imd": 1612,
+      "latitud": 41.606295,
+      "longitud": 0.951856,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 140,
+      "carretera": "LP-3322",
+      "pk_km": 1.0,
+      "imd": 7445,
+      "latitud": 41.636844,
+      "longitud": 0.89666,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 141,
+      "carretera": "LP-3322",
+      "pk_km": 11.5,
+      "imd": 2618,
+      "latitud": 41.731638,
+      "longitud": 0.9021,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 143,
+      "carretera": "T-713",
+      "pk_km": 11.0,
+      "imd": 113,
+      "latitud": 41.281159,
+      "longitud": 0.733358,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 144,
+      "carretera": "C-242",
+      "pk_km": 41.469,
+      "imd": 596,
+      "latitud": 41.285444,
+      "longitud": 0.921395,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 145,
+      "carretera": "T-701",
+      "pk_km": 0.5,
+      "imd": 361,
+      "latitud": 41.304221,
+      "longitud": 0.918056,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 146,
+      "carretera": "C-242",
+      "pk_km": 31.0,
+      "imd": 150,
+      "latitud": 41.336089,
+      "longitud": 0.865525,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 147,
+      "carretera": "TV-7004",
+      "pk_km": 1.0,
+      "imd": 107,
+      "latitud": 41.333519,
+      "longitud": 0.877073,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 149,
+      "carretera": "C-12",
+      "pk_km": 60.1,
+      "imd": 5235,
+      "latitud": 41.066218,
+      "longitud": 0.663587,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 150,
+      "carretera": "C-12",
+      "pk_km": 67.62,
+      "imd": 7644,
+      "latitud": 41.127258,
+      "longitud": 0.64147,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 151,
+      "carretera": "C-12",
+      "pk_km": 81.66,
+      "imd": 5972,
+      "latitud": 41.202014,
+      "longitud": 0.55542,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 152,
+      "carretera": "C-12",
+      "pk_km": 89.0,
+      "imd": 3411,
+      "latitud": 41.256457,
+      "longitud": 0.537383,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 153,
+      "carretera": "C-44",
+      "pk_km": 25.18,
+      "imd": 2756,
+      "latitud": 41.063885,
+      "longitud": 0.679328,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 154,
+      "carretera": "C-44",
+      "pk_km": 16.1,
+      "imd": 3609,
+      "latitud": 41.039808,
+      "longitud": 0.775678,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 156,
+      "carretera": "C-38",
+      "pk_km": 17.865,
+      "imd": 895,
+      "latitud": 42.34897325,
+      "longitud": 2.40660768,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 157,
+      "carretera": "C-26",
+      "pk_km": 188.0,
+      "imd": 638,
+      "latitud": 42.174448,
+      "longitud": 2.175046,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 158,
+      "carretera": "C-38",
+      "pk_km": 0.3,
+      "imd": 4517,
+      "latitud": 42.247564,
+      "longitud": 2.328815,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 159,
+      "carretera": "GI-402",
+      "pk_km": 1.0,
+      "imd": 327,
+      "latitud": 42.249634,
+      "longitud": 2.084298,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 160,
+      "carretera": "GIV-5264",
+      "pk_km": 2.0,
+      "imd": 3386,
+      "latitud": 42.31851,
+      "longitud": 2.351889,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 161,
+      "carretera": "C-17",
+      "pk_km": 92.371,
+      "imd": 12474,
+      "latitud": 42.179483,
+      "longitud": 2.194561,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 162,
+      "carretera": "GI-401",
+      "pk_km": 4.0,
+      "imd": 874,
+      "latitud": 42.232299,
+      "longitud": 2.127776,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 163,
+      "carretera": "C-26",
+      "pk_km": 194.0,
+      "imd": 7325,
+      "latitud": 42.20930938,
+      "longitud": 2.20489112,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 165,
+      "carretera": "L-311",
+      "pk_km": 3.0,
+      "imd": 6394,
+      "latitud": 41.690302,
+      "longitud": 1.28494,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 166,
+      "carretera": "C-1412a",
+      "pk_km": 12.9,
+      "imd": 2492,
+      "latitud": 41.870801,
+      "longitud": 1.308894,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 167,
+      "carretera": "L-243",
+      "pk_km": 14.5,
+      "imd": 71,
+      "latitud": 41.57920335,
+      "longitud": 1.27933457,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 168,
+      "carretera": "L-303",
+      "pk_km": 3.0,
+      "imd": 2470,
+      "latitud": 41.68553279,
+      "longitud": 1.24805199,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 169,
+      "carretera": "L-310",
+      "pk_km": 16.5,
+      "imd": 9028,
+      "latitud": 41.769763,
+      "longitud": 1.255897,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 170,
+      "carretera": "L-311",
+      "pk_km": 9.0,
+      "imd": 7649,
+      "latitud": 41.738764,
+      "longitud": 1.277361,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 171,
+      "carretera": "C-451",
+      "pk_km": 26.45,
+      "imd": 2758,
+      "latitud": 41.826653,
+      "longitud": 1.329331,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 174,
+      "carretera": "C-12",
+      "pk_km": 104.76,
+      "imd": 3094,
+      "latitud": 41.35772352,
+      "longitud": 0.51438638,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 175,
+      "carretera": "C-26",
+      "pk_km": 0.96,
+      "imd": 2543,
+      "latitud": 41.834534,
+      "longitud": 0.562686,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 176,
+      "carretera": "C-45",
+      "pk_km": 16.75,
+      "imd": 1998,
+      "latitud": 41.469633,
+      "longitud": 0.399612,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 177,
+      "carretera": "L-702",
+      "pk_km": 1.35,
+      "imd": 7493,
+      "latitud": 41.593688,
+      "longitud": 0.64624,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 178,
+      "carretera": "L-702",
+      "pk_km": 7.04,
+      "imd": 5973,
+      "latitud": 41.55921949,
+      "longitud": 0.69383249,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 180,
+      "carretera": "C-131",
+      "pk_km": 2.78,
+      "imd": 728,
+      "latitud": 42.14126046,
+      "longitud": 0.71248587,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 181,
+      "carretera": "C-242",
+      "pk_km": 3.08,
+      "imd": 886,
+      "latitud": 41.38977547,
+      "longitud": 0.60035174,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 182,
+      "carretera": "LP-7041",
+      "pk_km": 0.115,
+      "imd": 5840,
+      "latitud": 41.55153342,
+      "longitud": 0.49694861,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 183,
+      "carretera": "LP-7041",
+      "pk_km": 13.715,
+      "imd": 1432,
+      "latitud": 41.45958689,
+      "longitud": 0.40473365,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 184,
+      "carretera": "L-800",
+      "pk_km": 4.5,
+      "imd": 1727,
+      "latitud": 41.59539,
+      "longitud": 0.498993,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 185,
+      "carretera": "L-902",
+      "pk_km": 8.5,
+      "imd": 1114,
+      "latitud": 41.781782,
+      "longitud": 0.513556,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 186,
+      "carretera": "L-902",
+      "pk_km": 13.0,
+      "imd": 620,
+      "latitud": 41.819578,
+      "longitud": 0.532964,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 187,
+      "carretera": "LP-9221",
+      "pk_km": 12.8,
+      "imd": 2599,
+      "latitud": 41.736612,
+      "longitud": 0.643539,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 188,
+      "carretera": "C-12",
+      "pk_km": 108.8,
+      "imd": 2871,
+      "latitud": 41.37090748,
+      "longitud": 0.55167803,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 189,
+      "carretera": "C-12",
+      "pk_km": 133.0,
+      "imd": 6794,
+      "latitud": 41.552117,
+      "longitud": 0.624311,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 190,
+      "carretera": "C-12",
+      "pk_km": 149.0,
+      "imd": 11216,
+      "latitud": 41.669603,
+      "longitud": 0.668471,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 191,
+      "carretera": "C-13",
+      "pk_km": 4.0,
+      "imd": 12837,
+      "latitud": 41.600969,
+      "longitud": 0.66114,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 192,
+      "carretera": "C-13",
+      "pk_km": 12.654,
+      "imd": 6784,
+      "latitud": 41.66067,
+      "longitud": 0.696794,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 194,
+      "carretera": "C-63",
+      "pk_km": 10.82,
+      "imd": 19740,
+      "latitud": 41.777884,
+      "longitud": 2.777571,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 195,
+      "carretera": "GI-555",
+      "pk_km": 7.5,
+      "imd": 2581,
+      "latitud": 41.795195,
+      "longitud": 2.690201,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 196,
+      "carretera": "N-141e",
+      "pk_km": 101.5,
+      "imd": 9105,
+      "latitud": 41.959332,
+      "longitud": 2.653236,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 197,
+      "carretera": "GI-681",
+      "pk_km": 8.0,
+      "imd": 4048,
+      "latitud": 41.76459091,
+      "longitud": 2.88455547,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 198,
+      "carretera": "GI-682",
+      "pk_km": 21.2,
+      "imd": 4355,
+      "latitud": 41.72642,
+      "longitud": 2.923939,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 199,
+      "carretera": "GI-533",
+      "pk_km": 14.5,
+      "imd": 3759,
+      "latitud": 41.890427,
+      "longitud": 2.716619,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 200,
+      "carretera": "C-35",
+      "pk_km": 65.235,
+      "imd": 11310,
+      "latitud": 41.72842504,
+      "longitud": 2.58371463,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 201,
+      "carretera": "C-35",
+      "pk_km": 73.2,
+      "imd": 7041,
+      "latitud": 41.74527849,
+      "longitud": 2.67009086,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 202,
+      "carretera": "GI-541",
+      "pk_km": 2.0,
+      "imd": 228,
+      "latitud": 41.887221,
+      "longitud": 2.458562,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 203,
+      "carretera": "C-63",
+      "pk_km": 30.932,
+      "imd": 7811,
+      "latitud": 41.89014157,
+      "longitud": 2.65626796,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 204,
+      "carretera": "N-141e",
+      "pk_km": 101.5,
+      "imd": 10026,
+      "latitud": 41.959332,
+      "longitud": 2.653236,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 205,
+      "carretera": "GI-553",
+      "pk_km": 3.2,
+      "imd": 4412,
+      "latitud": 41.761188,
+      "longitud": 2.588477,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 206,
+      "carretera": "GI-534",
+      "pk_km": 5.5,
+      "imd": 551,
+      "latitud": 41.9271482,
+      "longitud": 2.747228532,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 207,
+      "carretera": "GI-673",
+      "pk_km": 2.2,
+      "imd": 8474,
+      "latitud": 41.841189,
+      "longitud": 2.790237,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 208,
+      "carretera": "GI-562",
+      "pk_km": 1.0,
+      "imd": 282,
+      "latitud": 41.76298364,
+      "longitud": 2.677025804,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 209,
+      "carretera": "GI-674",
+      "pk_km": 2.0,
+      "imd": 3184,
+      "latitud": 41.83948,
+      "longitud": 2.823949,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 210,
+      "carretera": "GI-543",
+      "pk_km": 1.0,
+      "imd": 397,
+      "latitud": 41.820746,
+      "longitud": 2.504935,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 211,
+      "carretera": "GI-552",
+      "pk_km": 8.0,
+      "imd": 1154,
+      "latitud": 41.771299,
+      "longitud": 2.552902,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 213,
+      "carretera": "GI-550",
+      "pk_km": 4.1,
+      "imd": 5150,
+      "latitud": 41.84263727,
+      "longitud": 2.51148778,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 214,
+      "carretera": "GI-552",
+      "pk_km": 13.0,
+      "imd": 5945,
+      "latitud": 41.797151,
+      "longitud": 2.547769,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 215,
+      "carretera": "GI-555",
+      "pk_km": 7.5,
+      "imd": 2639,
+      "latitud": 41.795195,
+      "longitud": 2.690201,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 216,
+      "carretera": "GI-681",
+      "pk_km": 10.52,
+      "imd": 3541,
+      "latitud": 41.74776446,
+      "longitud": 2.89252366,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 217,
+      "carretera": "GI-682",
+      "pk_km": 8.0,
+      "imd": 24811,
+      "latitud": 41.69287903,
+      "longitud": 2.81157169,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 218,
+      "carretera": "GI-682",
+      "pk_km": 22.0,
+      "imd": 3386,
+      "latitud": 41.72470491,
+      "longitud": 2.92471171,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 219,
+      "carretera": "C-63",
+      "pk_km": 24.125,
+      "imd": 6939,
+      "latitud": 41.856026,
+      "longitud": 2.680092,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 220,
+      "carretera": "C-152",
+      "pk_km": 3.0,
+      "imd": 5971,
+      "latitud": 41.412675,
+      "longitud": 1.697829,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 221,
+      "carretera": "GI-542",
+      "pk_km": 20.0,
+      "imd": 170,
+      "latitud": 41.88460355,
+      "longitud": 2.508972875,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 222,
+      "carretera": "GI-551",
+      "pk_km": 1.0,
+      "imd": 228,
+      "latitud": 41.86269792,
+      "longitud": 2.65433464,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 223,
+      "carretera": "C-25z",
+      "pk_km": 236.17,
+      "imd": 5479,
+      "latitud": 41.886603,
+      "longitud": 2.772248,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 224,
+      "carretera": "C-63",
+      "pk_km": 18.408,
+      "imd": 8892,
+      "latitud": 41.82163,
+      "longitud": 2.726376,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 226,
+      "carretera": "C-26",
+      "pk_km": 105.57,
+      "imd": 9138,
+      "latitud": 41.99395,
+      "longitud": 1.532447,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 227,
+      "carretera": "C-26",
+      "pk_km": 108.1,
+      "imd": 1063,
+      "latitud": 42.001622,
+      "longitud": 1.550796,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 228,
+      "carretera": "C-451",
+      "pk_km": 50.33,
+      "imd": 3057,
+      "latitud": 41.96736,
+      "longitud": 1.510806,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 229,
+      "carretera": "C-462",
+      "pk_km": 25.15,
+      "imd": 525,
+      "latitud": 42.149513,
+      "longitud": 1.593211,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 230,
+      "carretera": "C-55",
+      "pk_km": 75.27,
+      "imd": 5785,
+      "latitud": 41.96565128,
+      "longitud": 1.56814387,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 231,
+      "carretera": "C-26",
+      "pk_km": 127.5,
+      "imd": 422,
+      "latitud": 42.028237,
+      "longitud": 1.699509,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 232,
+      "carretera": "LV-4241",
+      "pk_km": 26.53,
+      "imd": 173,
+      "latitud": 42.145447,
+      "longitud": 1.57041,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 233,
+      "carretera": "LV-4241",
+      "pk_km": 34.9,
+      "imd": 540,
+      "latitud": 42.132903,
+      "longitud": 1.61866,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 234,
+      "carretera": "C-462",
+      "pk_km": 11.8,
+      "imd": 1178,
+      "latitud": 42.090243,
+      "longitud": 1.576718,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 235,
+      "carretera": "C-26",
+      "pk_km": 101.81,
+      "imd": 2061,
+      "latitud": 42.006656,
+      "longitud": 1.495463,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 237,
+      "carretera": "C-421B",
+      "pk_km": 1.05,
+      "imd": 6390,
+      "latitud": 41.19781299,
+      "longitud": 1.25464903,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 238,
+      "carretera": "C-14",
+      "pk_km": 0.49,
+      "imd": 35106,
+      "latitud": 41.093512,
+      "longitud": 1.129527,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 239,
+      "carretera": "C-31B",
+      "pk_km": 3.15,
+      "imd": 12812,
+      "latitud": 41.080742,
+      "longitud": 1.15965,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 240,
+      "carretera": "C-31B",
+      "pk_km": 6.775,
+      "imd": 17832,
+      "latitud": 41.098938,
+      "longitud": 1.184296,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 241,
+      "carretera": "T-721",
+      "pk_km": 3.73,
+      "imd": 12600,
+      "latitud": 41.144114,
+      "longitud": 1.220354,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 242,
+      "carretera": "T-214",
+      "pk_km": 3.0,
+      "imd": 3037,
+      "latitud": 41.161421,
+      "longitud": 1.388879,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 244,
+      "carretera": "C-12B",
+      "pk_km": 1.2,
+      "imd": 697,
+      "latitud": 41.1205048,
+      "longitud": 0.53747718,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 245,
+      "carretera": "C-221",
+      "pk_km": 69.13,
+      "imd": 2231,
+      "latitud": 41.06867,
+      "longitud": 0.334207,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 246,
+      "carretera": "T-330",
+      "pk_km": 16.0,
+      "imd": 1178,
+      "latitud": 40.933274,
+      "longitud": 0.305654,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 247,
+      "carretera": "T-334",
+      "pk_km": 11.5,
+      "imd": 629,
+      "latitud": 40.97114,
+      "longitud": 0.325177,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 248,
+      "carretera": "TV-7231",
+      "pk_km": 6.6,
+      "imd": 969,
+      "latitud": 41.09901326,
+      "longitud": 0.4173805,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 249,
+      "carretera": "TV-7231",
+      "pk_km": 10.0,
+      "imd": 464,
+      "latitud": 41.12236084,
+      "longitud": 0.4046493,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 250,
+      "carretera": "C-43",
+      "pk_km": 8.15,
+      "imd": 2224,
+      "latitud": 41.038204,
+      "longitud": 0.489173,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 251,
+      "carretera": "T-330",
+      "pk_km": 17.79,
+      "imd": 1366,
+      "latitud": 40.940649,
+      "longitud": 0.32412,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 253,
+      "carretera": "C-14",
+      "pk_km": 68.18,
+      "imd": 7658,
+      "latitud": 41.61552082,
+      "longitud": 1.13068432,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 254,
+      "carretera": "C-14",
+      "pk_km": 79.04,
+      "imd": 4202,
+      "latitud": 41.69988845,
+      "longitud": 1.12365149,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 255,
+      "carretera": "C-53",
+      "pk_km": 116.04,
+      "imd": 7536,
+      "latitud": 41.654069,
+      "longitud": 1.096118,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 256,
+      "carretera": "L-303",
+      "pk_km": 19.2,
+      "imd": 3982,
+      "latitud": 41.77865762,
+      "longitud": 1.11473857,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 257,
+      "carretera": "L-310",
+      "pk_km": 1.12,
+      "imd": 5757,
+      "latitud": 41.67108383,
+      "longitud": 1.14184627,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 258,
+      "carretera": "LP-2015",
+      "pk_km": 1.7,
+      "imd": 1638,
+      "latitud": 41.610794,
+      "longitud": 1.006585,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 259,
+      "carretera": "L-241",
+      "pk_km": 4.1,
+      "imd": 648,
+      "latitud": 41.56753111,
+      "longitud": 1.130593261,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 260,
+      "carretera": "LV-3025",
+      "pk_km": 19.6,
+      "imd": 2906,
+      "latitud": 41.787938,
+      "longitud": 1.082509,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 261,
+      "carretera": "C-14",
+      "pk_km": 59.9,
+      "imd": 4204,
+      "latitud": 41.544096,
+      "longitud": 1.144984,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 262,
+      "carretera": "T-232",
+      "pk_km": 10.0,
+      "imd": 36,
+      "latitud": 41.470812,
+      "longitud": 1.08416,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 264,
+      "carretera": "B-124",
+      "pk_km": 2.93,
+      "imd": 26783,
+      "latitud": 41.574945,
+      "longitud": 2.093966,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 265,
+      "carretera": "B-140",
+      "pk_km": 3.9,
+      "imd": 15282,
+      "latitud": 41.533079,
+      "longitud": 2.153009,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 266,
+      "carretera": "C-1413a",
+      "pk_km": 14.1,
+      "imd": 12084,
+      "latitud": 41.51091,
+      "longitud": 2.049939,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 267,
+      "carretera": "N-150",
+      "pk_km": 16.0,
+      "imd": 22086,
+      "latitud": 41.555988,
+      "longitud": 2.0494,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 268,
+      "carretera": "N-150",
+      "pk_km": 19.4,
+      "imd": 26652,
+      "latitud": 41.54953,
+      "longitud": 2.011436,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 269,
+      "carretera": "BP-1503",
+      "pk_km": 22.1,
+      "imd": 12859,
+      "latitud": 41.53549684,
+      "longitud": 2.03241118,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 270,
+      "carretera": "N-152z",
+      "pk_km": 16.2,
+      "imd": 12705,
+      "latitud": 41.5262667,
+      "longitud": 2.20293056,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 271,
+      "carretera": "B-225",
+      "pk_km": 0.77,
+      "imd": 3096,
+      "latitud": 41.44342326,
+      "longitud": 1.99553376,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 272,
+      "carretera": "B-121",
+      "pk_km": 1.0,
+      "imd": 1280,
+      "latitud": 41.561325,
+      "longitud": 1.919616,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 273,
+      "carretera": "B-122",
+      "pk_km": 17.0,
+      "imd": 525,
+      "latitud": 41.639476,
+      "longitud": 1.898037,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 274,
+      "carretera": "B-140",
+      "pk_km": 5.5,
+      "imd": 9929,
+      "latitud": 41.53395,
+      "longitud": 2.171557,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 275,
+      "carretera": "B-141",
+      "pk_km": 2.44,
+      "imd": 11408,
+      "latitud": 41.51757028,
+      "longitud": 2.14829218,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 276,
+      "carretera": "C-1413a",
+      "pk_km": 23.0,
+      "imd": 16417,
+      "latitud": 41.554748,
+      "longitud": 2.115556,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 277,
+      "carretera": "B-142",
+      "pk_km": 2.0,
+      "imd": 14141,
+      "latitud": 41.546789,
+      "longitud": 2.169178,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 278,
+      "carretera": "C-155",
+      "pk_km": 2.7,
+      "imd": 9617,
+      "latitud": 41.560837,
+      "longitud": 2.140631,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 279,
+      "carretera": "C-243c",
+      "pk_km": 12.19,
+      "imd": 16905,
+      "latitud": 41.548571,
+      "longitud": 1.995426,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 280,
+      "carretera": "BV-1211",
+      "pk_km": 5.0,
+      "imd": 1028,
+      "latitud": 41.568832,
+      "longitud": 1.922444,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 281,
+      "carretera": "C-17",
+      "pk_km": 5.0,
+      "imd": 21719,
+      "latitud": 41.492725,
+      "longitud": 2.184765,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 282,
+      "carretera": "B-120",
+      "pk_km": 3.86,
+      "imd": 1402,
+      "latitud": 41.550278,
+      "longitud": 1.962898,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 283,
+      "carretera": "B-120",
+      "pk_km": 7.0,
+      "imd": 3205,
+      "latitud": 41.550104,
+      "longitud": 1.938518,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 284,
+      "carretera": "B-122",
+      "pk_km": 14.0,
+      "imd": 567,
+      "latitud": 41.629405,
+      "longitud": 1.919258,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 285,
+      "carretera": "BP-1413",
+      "pk_km": 3.0,
+      "imd": 11719,
+      "latitud": 41.485972,
+      "longitud": 2.118217,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 286,
+      "carretera": "C-1413a",
+      "pk_km": 35.0,
+      "imd": 4031,
+      "latitud": 41.620037,
+      "longitud": 2.155875,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 287,
+      "carretera": "C-1413a",
+      "pk_km": 35.0,
+      "imd": 4329,
+      "latitud": 41.620037,
+      "longitud": 2.155875,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 288,
+      "carretera": "C-1415a",
+      "pk_km": 18.675,
+      "imd": 13502,
+      "latitud": 41.581687,
+      "longitud": 2.036876,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 289,
+      "carretera": "C-1415a",
+      "pk_km": 21.0,
+      "imd": 6020,
+      "latitud": 41.555988,
+      "longitud": 2.0494,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 290,
+      "carretera": "C-1415a",
+      "pk_km": 27.22,
+      "imd": 5346,
+      "latitud": 41.615389,
+      "longitud": 2.081148,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 291,
+      "carretera": "C-1415a",
+      "pk_km": 28.8,
+      "imd": 8282,
+      "latitud": 41.620626,
+      "longitud": 2.101103,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 292,
+      "carretera": "BP-1417",
+      "pk_km": 8.1,
+      "imd": 6596,
+      "latitud": 41.440156,
+      "longitud": 2.099957,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 293,
+      "carretera": "BP-1503",
+      "pk_km": 23.775,
+      "imd": 16794,
+      "latitud": 41.545362,
+      "longitud": 2.020292,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 294,
+      "carretera": "B-120",
+      "pk_km": 10.0,
+      "imd": 4014,
+      "latitud": 41.558839,
+      "longitud": 1.918395,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 295,
+      "carretera": "C-243c",
+      "pk_km": 0.6,
+      "imd": 7484,
+      "latitud": 41.477034,
+      "longitud": 1.938754,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 296,
+      "carretera": "C-243c",
+      "pk_km": 0.96,
+      "imd": 7122,
+      "latitud": 41.47869055,
+      "longitud": 1.941330497,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 297,
+      "carretera": "C-243c",
+      "pk_km": 6.0,
+      "imd": 10795,
+      "latitud": 41.478691,
+      "longitud": 1.94133,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 298,
+      "carretera": "C-243c",
+      "pk_km": 9.235,
+      "imd": 16817,
+      "latitud": 41.53268,
+      "longitud": 1.984675,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 299,
+      "carretera": "B-245",
+      "pk_km": 0.05,
+      "imd": 9565,
+      "latitud": 41.556379,
+      "longitud": 1.95631,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 301,
+      "carretera": "C-58LD",
+      "pk_km": 17.0,
+      "imd": 25761,
+      "latitud": 41.542465,
+      "longitud": 2.053757,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 302,
+      "carretera": "C-58LE",
+      "pk_km": 18.0,
+      "imd": 10856,
+      "latitud": 41.54373,
+      "longitud": 2.041491,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 303,
+      "carretera": "C-17",
+      "pk_km": 6.5,
+      "imd": 30952,
+      "latitud": 41.50545491,
+      "longitud": 2.18934636,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 304,
+      "carretera": "C-58C",
+      "pk_km": 0.52,
+      "imd": 49774,
+      "latitud": 41.545529,
+      "longitud": 2.077782,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 306,
+      "carretera": "C-58",
+      "pk_km": 37.411,
+      "imd": 17305,
+      "latitud": 41.616085,
+      "longitud": 1.869177,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 307,
+      "carretera": "C-59",
+      "pk_km": 3.75,
+      "imd": 47611,
+      "latitud": 41.54813153,
+      "longitud": 2.18679911,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 308,
+      "carretera": "C-59",
+      "pk_km": 7.98,
+      "imd": 28630,
+      "latitud": 41.58509,
+      "longitud": 2.187908,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 309,
+      "carretera": "C-58LD",
+      "pk_km": 9.8,
+      "imd": 23328,
+      "latitud": 41.528085,
+      "longitud": 2.094685,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 310,
+      "carretera": "C-58",
+      "pk_km": 23.5,
+      "imd": 14420,
+      "latitud": 41.55772482,
+      "longitud": 1.98314106,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 311,
+      "carretera": "C-58",
+      "pk_km": 24.0,
+      "imd": 7744,
+      "latitud": 41.55949446,
+      "longitud": 1.97752498,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 312,
+      "carretera": "B-124",
+      "pk_km": 12.0,
+      "imd": 3070,
+      "latitud": 41.637911,
+      "longitud": 2.05785,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 313,
+      "carretera": "C-58",
+      "pk_km": 3.582,
+      "imd": 158024,
+      "latitud": 41.47754067,
+      "longitud": 2.16287758,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 314,
+      "carretera": "C-58",
+      "pk_km": 6.002,
+      "imd": 150944,
+      "latitud": 41.495474,
+      "longitud": 2.149675,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 315,
+      "carretera": "C-58",
+      "pk_km": 9.8,
+      "imd": 143689,
+      "latitud": 41.50611,
+      "longitud": 2.110904,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 316,
+      "carretera": "C-1413a",
+      "pk_km": 13.5,
+      "imd": 11612,
+      "latitud": 41.50875467,
+      "longitud": 2.04539143,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 317,
+      "carretera": "BP-1503",
+      "pk_km": 19.0,
+      "imd": 22132,
+      "latitud": 41.50927581,
+      "longitud": 2.03552186,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 318,
+      "carretera": "C-33",
+      "pk_km": 83.0,
+      "imd": 108597,
+      "latitud": 41.504544,
+      "longitud": 2.198554,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 320,
+      "carretera": "C-17",
+      "pk_km": 29.563,
+      "imd": 40906,
+      "latitud": 41.68552835,
+      "longitud": 2.27878109,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 321,
+      "carretera": "C-35",
+      "pk_km": 28.9,
+      "imd": 8944,
+      "latitud": 41.56936462,
+      "longitud": 2.25226034,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 322,
+      "carretera": "C-35",
+      "pk_km": 58.772,
+      "imd": 17443,
+      "latitud": 41.702998,
+      "longitud": 2.515203,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 323,
+      "carretera": "B-402",
+      "pk_km": 13.25,
+      "imd": 36627,
+      "latitud": 42.24580224,
+      "longitud": 2.00829759,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 324,
+      "carretera": "C-59",
+      "pk_km": 1.05,
+      "imd": 51316,
+      "latitud": 41.529258,
+      "longitud": 2.204133,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 325,
+      "carretera": "C-59",
+      "pk_km": 17.8,
+      "imd": 13158,
+      "latitud": 41.648991,
+      "longitud": 2.161636,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 326,
+      "carretera": "C-61",
+      "pk_km": 15.5,
+      "imd": 5022,
+      "latitud": 41.660856,
+      "longitud": 2.483554,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 327,
+      "carretera": "C-1415b",
+      "pk_km": 5.55,
+      "imd": 9663,
+      "latitud": 41.63348036,
+      "longitud": 2.22010022,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 328,
+      "carretera": "C-1415b",
+      "pk_km": 7.4,
+      "imd": 12672,
+      "latitud": 41.62629345,
+      "longitud": 2.23903408,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 329,
+      "carretera": "C-155",
+      "pk_km": 9.6,
+      "imd": 12524,
+      "latitud": 41.570305,
+      "longitud": 2.20261,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 330,
+      "carretera": "C-251",
+      "pk_km": 5.2,
+      "imd": 18773,
+      "latitud": 41.634219,
+      "longitud": 2.335191,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 331,
+      "carretera": "BV-5105",
+      "pk_km": 0.6,
+      "imd": 18213,
+      "latitud": 41.595467,
+      "longitud": 2.343241,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 332,
+      "carretera": "C-17",
+      "pk_km": 20.272,
+      "imd": 74956,
+      "latitud": 41.600586,
+      "longitud": 2.261529,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 333,
+      "carretera": "C-59",
+      "pk_km": 11.7,
+      "imd": 28767,
+      "latitud": 41.610988,
+      "longitud": 2.17932,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 334,
+      "carretera": "BP-5002",
+      "pk_km": 13.784,
+      "imd": 17241,
+      "latitud": 41.57904,
+      "longitud": 2.283017,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 335,
+      "carretera": "BP-5002",
+      "pk_km": 12.0,
+      "imd": 12622,
+      "latitud": 41.561535,
+      "longitud": 2.283044,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 336,
+      "carretera": "BP-5002",
+      "pk_km": 8.7,
+      "imd": 5969,
+      "latitud": 41.534181,
+      "longitud": 2.288655,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 337,
+      "carretera": "BV-5105",
+      "pk_km": 3.02,
+      "imd": 24098,
+      "latitud": 41.614876,
+      "longitud": 2.350596,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 338,
+      "carretera": "BV-5301",
+      "pk_km": 10.0,
+      "imd": 1265,
+      "latitud": 41.738934,
+      "longitud": 2.40774,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 339,
+      "carretera": "BV-5301",
+      "pk_km": 0.325,
+      "imd": 11782,
+      "latitud": 41.669234,
+      "longitud": 2.465734,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 340,
+      "carretera": "C-1415c",
+      "pk_km": 16.71,
+      "imd": 8381,
+      "latitud": 41.593367,
+      "longitud": 2.316683,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 341,
+      "carretera": "C-59",
+      "pk_km": 15.0,
+      "imd": 12891,
+      "latitud": 41.638245,
+      "longitud": 2.170082,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 342,
+      "carretera": "C-17",
+      "pk_km": 14.645,
+      "imd": 53906,
+      "latitud": 41.561096,
+      "longitud": 2.235819,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 343,
+      "carretera": "C-17",
+      "pk_km": 17.253,
+      "imd": 99945,
+      "latitud": 41.581267,
+      "longitud": 2.253902,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 344,
+      "carretera": "C-17",
+      "pk_km": 25.316,
+      "imd": 68806,
+      "latitud": 41.649676,
+      "longitud": 2.267284,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 345,
+      "carretera": "C-17",
+      "pk_km": 33.138,
+      "imd": 40220,
+      "latitud": 41.712254,
+      "longitud": 2.276608,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 346,
+      "carretera": "C-35",
+      "pk_km": 42.5,
+      "imd": 19895,
+      "latitud": 41.62501209,
+      "longitud": 2.37456681,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 347,
+      "carretera": "C-35",
+      "pk_km": 49.85,
+      "imd": 14719,
+      "latitud": 41.652429,
+      "longitud": 2.440747,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 348,
+      "carretera": "N-152z",
+      "pk_km": 26.2,
+      "imd": 53923,
+      "latitud": 41.5975511,
+      "longitud": 2.27235787,
+      "coordinate_source": "ICGC"
+    },
+    {
+      "chart_row": 349,
+      "carretera": "C-352",
+      "pk_km": 24.5,
+      "imd": 21393,
+      "latitud": 41.622722,
+      "longitud": 2.29387,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 350,
+      "carretera": "B-500",
+      "pk_km": 7.1,
+      "imd": 4141,
+      "latitud": 41.498086,
+      "longitud": 2.255094,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 351,
+      "carretera": "B-500",
+      "pk_km": 12.0,
+      "imd": 9974,
+      "latitud": 41.524316,
+      "longitud": 2.229283,
+      "coordinate_source": "estacions oficials de la Generalitat"
+    },
+    {
+      "chart_row": 300,
+      "carretera": "C-58LD",
+      "pk_km": 13.0,
+      "imd": 27107,
+      "latitud": 41.53447722222222,
+      "longitud": 2.076495,
+      "coordinate_source": "interpolació entre estacions oficials",
+      "coordinate_note": "Punt interpolat entre C-58LD PK 9,8 i PK 17,0 perquè el servei de geocodificació no publica el PK 13."
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 517.85,
+      "imd": 30654,
+      "latitud": 41.6863121,
+      "longitud": 1.2572465,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 352
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1156.1,
+      "imd": 40295,
+      "latitud": 41.1283393,
+      "longitud": 1.1705296,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 353
+    },
+    {
+      "carretera": "A-27",
+      "pk_km": 20.0,
+      "imd": 18062,
+      "latitud": 41.2818192,
+      "longitud": 1.2301427,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 354
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 474.1,
+      "imd": 40823,
+      "latitud": 41.6334793,
+      "longitud": 0.7585459,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 355
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 5.87,
+      "imd": 10669,
+      "latitud": 41.1706865,
+      "longitud": 1.2395152,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 356
+    },
+    {
+      "carretera": "N-260A",
+      "pk_km": 6.0,
+      "imd": 35,
+      "latitud": 42.4210006,
+      "longitud": 3.1628307,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 357
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1090.5,
+      "imd": 16245,
+      "latitud": 40.7672158,
+      "longitud": 0.6478628,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 358
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 62.4,
+      "imd": 3122,
+      "latitud": 41.4814861,
+      "longitud": 0.9106668,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 359
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 608.3,
+      "imd": 138316,
+      "latitud": 41.3486806,
+      "longitud": 2.0636196,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 360
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 133.8,
+      "imd": 2738,
+      "latitud": 42.3116906,
+      "longitud": 2.1338939,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 361
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1167.0,
+      "imd": 10213,
+      "latitud": 41.1295483,
+      "longitud": 1.2981554,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 362
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 281.8,
+      "imd": 3522,
+      "latitud": 42.3992886,
+      "longitud": 1.1284026,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 363
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 698.935,
+      "imd": 36713,
+      "latitud": 41.8398495,
+      "longitud": 2.7599277,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 364
+    },
+    {
+      "carretera": "B-23",
+      "pk_km": 7.51,
+      "imd": 124869,
+      "latitud": 41.3831986,
+      "longitud": 2.0289796,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 365
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 534.35,
+      "imd": 26640,
+      "latitud": 41.6235277,
+      "longitud": 1.4193071,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 366
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 544.3,
+      "imd": 27059,
+      "latitud": 41.6154688,
+      "longitud": 1.5244754,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 367
+    },
+    {
+      "carretera": "A-27",
+      "pk_km": 1.348,
+      "imd": 40075,
+      "latitud": 41.1235763,
+      "longitud": 1.229435,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 368
+    },
+    {
+      "carretera": "A-27",
+      "pk_km": 5.53,
+      "imd": 32521,
+      "latitud": 41.1594403,
+      "longitud": 1.2256929,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 369
+    },
+    {
+      "carretera": "A-27",
+      "pk_km": 0.33,
+      "imd": 8064,
+      "latitud": 41.1146873,
+      "longitud": 1.2271847,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 370
+    },
+    {
+      "carretera": "A-27",
+      "pk_km": 8.3,
+      "imd": 28020,
+      "latitud": 41.1804059,
+      "longitud": 1.2132287,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 371
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 109.16,
+      "imd": 2383,
+      "latitud": 41.695065,
+      "longitud": 0.4808499,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 372
+    },
+    {
+      "carretera": "N-152",
+      "pk_km": 1.69,
+      "imd": 6732,
+      "latitud": 42.4334917,
+      "longitud": 1.9393654,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 373
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 65.0,
+      "imd": 391,
+      "latitud": 42.2073945,
+      "longitud": 2.6798961,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 374
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 125.23,
+      "imd": 5301,
+      "latitud": 42.4243437,
+      "longitud": 0.7325925,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 375
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 524.81,
+      "imd": 25200,
+      "latitud": 41.6488511,
+      "longitud": 1.3187666,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 376
+    },
+    {
+      "carretera": "A-22",
+      "pk_km": 4.77,
+      "imd": 15667,
+      "latitud": 41.6664896,
+      "longitud": 0.5173008,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 377
+    },
+    {
+      "carretera": "T-11",
+      "pk_km": 8.8,
+      "imd": 50896,
+      "latitud": 41.1322365,
+      "longitud": 1.1327392,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 378
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 867.54,
+      "imd": 16349,
+      "latitud": 41.166664,
+      "longitud": 1.0390872,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 379
+    },
+    {
+      "carretera": "T-11",
+      "pk_km": 6.0,
+      "imd": 40243,
+      "latitud": 41.1334772,
+      "longitud": 1.1039327,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 380
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 701.96,
+      "imd": 40042,
+      "latitud": 41.8616871,
+      "longitud": 2.7757382,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 381
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 70.0,
+      "imd": 7879,
+      "latitud": 41.527287,
+      "longitud": 0.8540485,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 382
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 586.8,
+      "imd": 96037,
+      "latitud": 41.4952578,
+      "longitud": 1.9216297,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 383
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 179.46,
+      "imd": 4938,
+      "latitud": 42.7906408,
+      "longitud": 0.6972175,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 384
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 556.6,
+      "imd": 40571,
+      "latitud": 41.5944502,
+      "longitud": 1.6439664,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 385
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1172.2,
+      "imd": 19624,
+      "latitud": 41.1435087,
+      "longitud": 1.3513192,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 386
+    },
+    {
+      "carretera": "N-145",
+      "pk_km": 1.17,
+      "imd": 15609,
+      "latitud": 42.3703853,
+      "longitud": 1.4556799,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 387
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 100.0,
+      "imd": 4027,
+      "latitud": 42.2350416,
+      "longitud": 2.3526422,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 388
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 39.47,
+      "imd": 10904,
+      "latitud": 42.2533085,
+      "longitud": 2.9425858,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 389
+    },
+    {
+      "carretera": "B-23",
+      "pk_km": 2.5,
+      "imd": 101697,
+      "latitud": 41.3769765,
+      "longitud": 2.080781,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 390
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 88.0,
+      "imd": 8757,
+      "latitud": 41.6083478,
+      "longitud": 0.6740825,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 391
+    },
+    {
+      "carretera": "N-420a",
+      "pk_km": 796.0,
+      "imd": 37,
+      "latitud": 41.0482955,
+      "longitud": 0.3838523,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 392
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 42.0,
+      "imd": 9265,
+      "latitud": 42.2449166,
+      "longitud": 2.9164356,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 393
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 563.7,
+      "imd": 40893,
+      "latitud": 41.5967181,
+      "longitud": 1.7167761,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 394
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 112.66,
+      "imd": 7183,
+      "latitud": 42.2194321,
+      "longitud": 2.2219209,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 395
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 22.94,
+      "imd": 6109,
+      "latitud": 41.3136877,
+      "longitud": 1.2343102,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 396
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 48.1,
+      "imd": 2317,
+      "latitud": 41.4067114,
+      "longitud": 1.0374594,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 397
+    },
+    {
+      "carretera": "N-340a",
+      "pk_km": 1082.405,
+      "imd": 15033,
+      "latitud": 40.7170202,
+      "longitud": 0.5839403,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 398
+    },
+    {
+      "carretera": "N-420a",
+      "pk_km": 879.0,
+      "imd": 2749,
+      "latitud": 41.1428902,
+      "longitud": 1.1493567,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 399
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1068.7,
+      "imd": 7612,
+      "latitud": 40.6014867,
+      "longitud": 0.5632427,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 400
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1078.5,
+      "imd": 13431,
+      "latitud": 40.6806522,
+      "longitud": 0.5837165,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 401
+    },
+    {
+      "carretera": "B-24",
+      "pk_km": 9.8,
+      "imd": 32270,
+      "latitud": 41.4137094,
+      "longitud": 1.9967455,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 402
+    },
+    {
+      "carretera": "B-40",
+      "pk_km": 10.4,
+      "imd": 22950,
+      "latitud": 41.5674551,
+      "longitud": 1.989561,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 403
+    },
+    {
+      "carretera": "N-235",
+      "pk_km": 11.5,
+      "imd": 14661,
+      "latitud": 40.7525973,
+      "longitud": 0.6062941,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 404
+    },
+    {
+      "carretera": "B-40",
+      "pk_km": 1.0,
+      "imd": 28363,
+      "latitud": 41.523634,
+      "longitud": 1.8954258,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 405
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1113.1,
+      "imd": 5558,
+      "latitud": 40.8937125,
+      "longitud": 0.7868939,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 406
+    },
+    {
+      "carretera": "N-420A",
+      "pk_km": 854.0,
+      "imd": 15,
+      "latitud": 41.1767237,
+      "longitud": 0.9234248,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 407
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 317.25,
+      "imd": 38359,
+      "latitud": 40.7646184,
+      "longitud": 0.6270329,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 408
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 3.0,
+      "imd": 21905,
+      "latitud": 41.1454754,
+      "longitud": 1.2395583,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 409
+    },
+    {
+      "carretera": "A-26",
+      "pk_km": 67.45,
+      "imd": 16030,
+      "latitud": 42.2091598,
+      "longitud": 2.6735513,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 410
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 794.86,
+      "imd": 3257,
+      "latitud": 41.0491344,
+      "longitud": 0.3700655,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 411
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 708.33,
+      "imd": 48761,
+      "latitud": 41.9178935,
+      "longitud": 2.7920868,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 412
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 39.2,
+      "imd": 9525,
+      "latitud": 41.3917119,
+      "longitud": 1.1369448,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 413
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 2.2,
+      "imd": 25130,
+      "latitud": 41.1383707,
+      "longitud": 1.2385211,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 414
+    },
+    {
+      "carretera": "T-11",
+      "pk_km": 2.0,
+      "imd": 14451,
+      "latitud": 41.1566293,
+      "longitud": 1.0737333,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 415
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 483.84,
+      "imd": 35780,
+      "latitud": 41.6386537,
+      "longitud": 0.8647156,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 416
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 887.4,
+      "imd": 21004,
+      "latitud": 41.1162557,
+      "longitud": 1.2360516,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 417
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1190.0,
+      "imd": 18957,
+      "latitud": 41.2073549,
+      "longitud": 1.5331703,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 418
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1149.3,
+      "imd": 40096,
+      "latitud": 41.0946753,
+      "longitud": 1.1067876,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 419
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 174.7,
+      "imd": 270,
+      "latitud": 42.3854184,
+      "longitud": 1.9077275,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 420
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 812.63,
+      "imd": 3837,
+      "latitud": 41.1069782,
+      "longitud": 0.5379829,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 421
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 8.2,
+      "imd": 11716,
+      "latitud": 41.192026,
+      "longitud": 1.243117,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 422
+    },
+    {
+      "carretera": "B-24",
+      "pk_km": 5.14,
+      "imd": 25435,
+      "latitud": 41.3916014,
+      "longitud": 1.9578049,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 423
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 849.65,
+      "imd": 6201,
+      "latitud": 41.1692983,
+      "longitud": 0.889056,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 424
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1059.5,
+      "imd": 5770,
+      "latitud": 40.53588,
+      "longitud": 0.507347,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 425
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 262.925,
+      "imd": 36428,
+      "latitud": 41.0845129,
+      "longitud": 1.0692225,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 426
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 278.8,
+      "imd": 33607,
+      "latitud": 41.0217948,
+      "longitud": 0.9082726,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 427
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 295.21,
+      "imd": 38918,
+      "latitud": 40.8995968,
+      "longitud": 0.8120307,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 428
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 307.2,
+      "imd": 38987,
+      "latitud": 40.8192958,
+      "longitud": 0.7186449,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 429
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 449.51,
+      "imd": 15050,
+      "latitud": 41.5657889,
+      "longitud": 0.5010151,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 430
+    },
+    {
+      "carretera": "A-27",
+      "pk_km": 2.98,
+      "imd": 34578,
+      "latitud": 41.1374202,
+      "longitud": 1.2317434,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 431
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 160.0,
+      "imd": 3281,
+      "latitud": 42.6917982,
+      "longitud": 0.787398,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 432
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 116.2,
+      "imd": 1247,
+      "latitud": 41.7427713,
+      "longitud": 0.4244634,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 433
+    },
+    {
+      "carretera": "T-11",
+      "pk_km": 13.87,
+      "imd": 38916,
+      "latitud": 41.1321796,
+      "longitud": 1.1866727,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 434
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 501.14,
+      "imd": 35134,
+      "latitud": 41.6430451,
+      "longitud": 1.0702016,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 435
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 13.1,
+      "imd": 2780,
+      "latitud": 41.7178644,
+      "longitud": 0.5944903,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 436
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 137.25,
+      "imd": 3158,
+      "latitud": 42.5202242,
+      "longitud": 0.722663,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 437
+    },
+    {
+      "carretera": "T-11",
+      "pk_km": 13.87,
+      "imd": 2464,
+      "latitud": 41.1321796,
+      "longitud": 1.1866727,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 438
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 33.83,
+      "imd": 4573,
+      "latitud": 41.3650898,
+      "longitud": 1.183866,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 439
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1234.5,
+      "imd": 8529,
+      "latitud": 41.3800279,
+      "longitud": 1.9198402,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 440
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 86.86,
+      "imd": 7308,
+      "latitud": 41.6028824,
+      "longitud": 0.6853061,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 441
+    },
+    {
+      "carretera": "B-10",
+      "pk_km": 15.33,
+      "imd": 80227,
+      "latitud": 41.3488305,
+      "longitud": 2.145391,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 442
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 488.09,
+      "imd": 33150,
+      "latitud": 41.6434636,
+      "longitud": 0.913269,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 443
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 50.11,
+      "imd": 7592,
+      "latitud": 42.2215689,
+      "longitud": 2.8254083,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 444
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 572.35,
+      "imd": 45715,
+      "latitud": 41.5704323,
+      "longitud": 1.7947061,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 445
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 228.39,
+      "imd": 15671,
+      "latitud": 42.3597577,
+      "longitud": 1.4482902,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 446
+    },
+    {
+      "carretera": "A-26",
+      "pk_km": 74.52,
+      "imd": 15050,
+      "latitud": 42.2172411,
+      "longitud": 2.5927081,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 447
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 343.34,
+      "imd": 30283,
+      "latitud": 40.5800394,
+      "longitud": 0.4522496,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 448
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1146.0,
+      "imd": 17701,
+      "latitud": 41.0822322,
+      "longitud": 1.0739557,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 449
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 858.5,
+      "imd": 10291,
+      "latitud": 41.1696186,
+      "longitud": 0.9658936,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 450
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1099.0,
+      "imd": 4770,
+      "latitud": 40.8232231,
+      "longitud": 0.7072932,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 451
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 787.0,
+      "imd": 1443,
+      "latitud": 41.0532011,
+      "longitud": 0.2871755,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 452
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 17.18,
+      "imd": 6773,
+      "latitud": 41.2695935,
+      "longitud": 1.2476166,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 453
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 87.18,
+      "imd": 6658,
+      "latitud": 42.209333,
+      "longitud": 2.4770536,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 454
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 307.0,
+      "imd": 3079,
+      "latitud": 42.2566067,
+      "longitud": 0.9744618,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 455
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 510.7,
+      "imd": 31676,
+      "latitud": 41.6583222,
+      "longitud": 1.1750485,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 456
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 470.0,
+      "imd": 22969,
+      "latitud": 41.6301087,
+      "longitud": 0.6992053,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 457
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 695.904,
+      "imd": 32457,
+      "latitud": 41.8146748,
+      "longitud": 2.7641273,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 458
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 464.34,
+      "imd": 35004,
+      "latitud": 41.6637157,
+      "longitud": 0.6372955,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 459
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 121.67,
+      "imd": 3133,
+      "latitud": 42.3954284,
+      "longitud": 0.7413005,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 460
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 346.5,
+      "imd": 846,
+      "latitud": 42.3957331,
+      "longitud": 0.7462586,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 461
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 35.2,
+      "imd": 14309,
+      "latitud": 42.278405,
+      "longitud": 2.9914621,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 462
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 84.86,
+      "imd": 13764,
+      "latitud": 42.2025637,
+      "longitud": 2.4979926,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 463
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 506.65,
+      "imd": 33651,
+      "latitud": 41.6581937,
+      "longitud": 1.1284296,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 464
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 126.05,
+      "imd": 3686,
+      "latitud": 42.428652,
+      "longitud": 0.7255084,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 465
+    },
+    {
+      "carretera": "N-156",
+      "pk_km": 0.176,
+      "imd": 9214,
+      "latitud": 41.8919601,
+      "longitud": 2.780876,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 466
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 234.64,
+      "imd": 1094,
+      "latitud": 42.3266163,
+      "longitud": 1.3914443,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 467
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 9.13,
+      "imd": 11099,
+      "latitud": 41.6827763,
+      "longitud": 0.6018174,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 468
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 113.3,
+      "imd": 830,
+      "latitud": 41.7263469,
+      "longitud": 0.4532513,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 469
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 601.1,
+      "imd": 109209,
+      "latitud": 41.3993174,
+      "longitud": 2.0146716,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 470
+    },
+    {
+      "carretera": "A-14",
+      "pk_km": 11.31,
+      "imd": 6046,
+      "latitud": 41.7562027,
+      "longitud": 0.5619909,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 471
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 170.0,
+      "imd": 5439,
+      "latitud": 42.7367427,
+      "longitud": 0.7449745,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 472
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 460.03,
+      "imd": 31412,
+      "latitud": 41.6556911,
+      "longitud": 0.5789011,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 473
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 223.9,
+      "imd": 7817,
+      "latitud": 42.357947,
+      "longitud": 1.5003537,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 474
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 27.5,
+      "imd": 3115,
+      "latitud": 41.8384835,
+      "longitud": 0.5688524,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 475
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 202.075,
+      "imd": 6070,
+      "latitud": 42.3653165,
+      "longitud": 1.7156511,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 476
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 196.607,
+      "imd": 6151,
+      "latitud": 42.3735275,
+      "longitud": 1.7755202,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 477
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 278.0,
+      "imd": 1072,
+      "latitud": 42.3973231,
+      "longitud": 1.1382175,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 478
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 318.57,
+      "imd": 1929,
+      "latitud": 42.3220512,
+      "longitud": 0.9366123,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 479
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 128.01,
+      "imd": 5262,
+      "latitud": 42.2857397,
+      "longitud": 2.1599387,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 480
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 602.9,
+      "imd": 104829,
+      "latitud": 41.3842767,
+      "longitud": 2.022278,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 481
+    },
+    {
+      "carretera": "A-14",
+      "pk_km": 6.45,
+      "imd": 6320,
+      "latitud": 41.7123525,
+      "longitud": 0.562027,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 482
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1226.0,
+      "imd": 6721,
+      "latitud": 41.3955921,
+      "longitud": 1.8482656,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 483
+    },
+    {
+      "carretera": "B-22",
+      "pk_km": 6.8,
+      "imd": 74646,
+      "latitud": 41.5012709,
+      "longitud": 1.4366857,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 484
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1084.9,
+      "imd": 10010,
+      "latitud": 40.7378942,
+      "longitud": 0.5923032,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 485
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1087.5,
+      "imd": 8153,
+      "latitud": 40.7562813,
+      "longitud": 0.6136837,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 486
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1200.0,
+      "imd": 20525,
+      "latitud": 41.2720873,
+      "longitud": 1.609016,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 487
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 839.59,
+      "imd": 6451,
+      "latitud": 41.1385742,
+      "longitud": 0.7981235,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 488
+    },
+    {
+      "carretera": "N-240",
+      "pk_km": 18.61,
+      "imd": 15913,
+      "latitud": 41.2829144,
+      "longitud": 1.2463765,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 489
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1097.5,
+      "imd": 9038,
+      "latitud": 40.8097504,
+      "longitud": 0.7037977,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 490
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 806.4,
+      "imd": 3988,
+      "latitud": 41.0808138,
+      "longitud": 0.4863233,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 491
+    },
+    {
+      "carretera": "N-420",
+      "pk_km": 826.7,
+      "imd": 6122,
+      "latitud": 41.1048921,
+      "longitud": 0.6661775,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 492
+    },
+    {
+      "carretera": "N-420A",
+      "pk_km": 826.0,
+      "imd": 285,
+      "latitud": 41.1049598,
+      "longitud": 0.6628528,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 493
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 706.607,
+      "imd": 3555,
+      "latitud": 41.902898,
+      "longitud": 2.7876143,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 494
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 706.607,
+      "imd": 42954,
+      "latitud": 41.902898,
+      "longitud": 2.7876143,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 495
+    },
+    {
+      "carretera": "A-26",
+      "pk_km": 65.17,
+      "imd": 13746,
+      "latitud": 42.2068086,
+      "longitud": 2.6997297,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 496
+    },
+    {
+      "carretera": "N-154",
+      "pk_km": 1.44,
+      "imd": 9011,
+      "latitud": 42.4442064,
+      "longitud": 1.9420543,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 497
+    },
+    {
+      "carretera": "N-154",
+      "pk_km": 4.26,
+      "imd": 7493,
+      "latitud": 42.4587718,
+      "longitud": 1.9700621,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 498
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 0.13,
+      "imd": 1611,
+      "latitud": 42.4346747,
+      "longitud": 3.1606655,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 499
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 695.904,
+      "imd": 190,
+      "latitud": 41.8146748,
+      "longitud": 2.7641273,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 500
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 698.935,
+      "imd": 229,
+      "latitud": 41.8398495,
+      "longitud": 2.7599277,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 501
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 708.33,
+      "imd": 1296,
+      "latitud": 41.9178935,
+      "longitud": 2.7920868,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 502
+    },
+    {
+      "carretera": "A-26",
+      "pk_km": 81.1,
+      "imd": 16923,
+      "latitud": 42.1989919,
+      "longitud": 2.530773,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 503
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 19.01,
+      "imd": 9663,
+      "latitud": 42.3547369,
+      "longitud": 3.1402204,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 504
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 177.31,
+      "imd": 10792,
+      "latitud": 42.4062309,
+      "longitud": 1.9162618,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 505
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 28.89,
+      "imd": 12179,
+      "latitud": 42.3095346,
+      "longitud": 3.0569556,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 506
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 117.935,
+      "imd": 13113,
+      "latitud": 42.20526,
+      "longitud": 2.1760267,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 507
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 153.481,
+      "imd": 518,
+      "latitud": 42.3324691,
+      "longitud": 2.0084543,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 508
+    },
+    {
+      "carretera": "N-152",
+      "pk_km": 1.0,
+      "imd": 10959,
+      "latitud": 42.4306433,
+      "longitud": 1.9342467,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 509
+    },
+    {
+      "carretera": "N-156",
+      "pk_km": 1.2,
+      "imd": 7310,
+      "latitud": 41.8978582,
+      "longitud": 2.7709583,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 510
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 14.0,
+      "imd": 2960,
+      "latitud": 42.3895881,
+      "longitud": 3.1559946,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 511
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 60.6,
+      "imd": 7592,
+      "latitud": 42.2050499,
+      "longitud": 2.7275995,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 512
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 180.0,
+      "imd": 10915,
+      "latitud": 42.4259273,
+      "longitud": 1.91822,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 513
+    },
+    {
+      "carretera": "N-260",
+      "pk_km": 192.5,
+      "imd": 3816,
+      "latitud": 42.3772846,
+      "longitud": 1.817717,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 514
+    },
+    {
+      "carretera": "N-260A",
+      "pk_km": 51.35,
+      "imd": 76,
+      "latitud": 42.2209448,
+      "longitud": 2.8123119,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 515
+    },
+    {
+      "carretera": "N-260A",
+      "pk_km": 53.4,
+      "imd": 109,
+      "latitud": 42.2128433,
+      "longitud": 2.7988032,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 516
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1128.0,
+      "imd": 2516,
+      "latitud": 40.9861548,
+      "longitud": 0.9059169,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 517
+    },
+    {
+      "carretera": "N-141",
+      "pk_km": 8.22,
+      "imd": 662,
+      "latitud": 42.7687784,
+      "longitud": 0.6599926,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 518
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 24.61,
+      "imd": 7197,
+      "latitud": 41.8134581,
+      "longitud": 0.5719423,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 519
+    },
+    {
+      "carretera": "N-230",
+      "pk_km": 187.07,
+      "imd": 3938,
+      "latitud": 42.8483313,
+      "longitud": 0.7354106,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 520
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 321.18,
+      "imd": 32209,
+      "latitud": 40.7430405,
+      "longitud": 0.5924491,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 521
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 445.15,
+      "imd": 10776,
+      "latitud": 41.5386874,
+      "longitud": 0.4545784,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 522
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1128.3,
+      "imd": 4309,
+      "latitud": 40.9939293,
+      "longitud": 0.9039945,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 523
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1170.1,
+      "imd": 25504,
+      "latitud": 41.1383831,
+      "longitud": 1.3269392,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 524
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1139.8,
+      "imd": 15682,
+      "latitud": 41.0654013,
+      "longitud": 1.0043371,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 525
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1152.4,
+      "imd": 37067,
+      "latitud": 41.1011605,
+      "longitud": 1.1421816,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 526
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1162.0,
+      "imd": 52892,
+      "latitud": 41.1269108,
+      "longitud": 1.2413055,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 527
+    },
+    {
+      "carretera": "B-20",
+      "pk_km": 18.68,
+      "imd": 112258,
+      "latitud": 41.4609497,
+      "longitud": 2.2153577,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 528
+    },
+    {
+      "carretera": "B-22",
+      "pk_km": 2.08,
+      "imd": 26902,
+      "latitud": 41.5261113,
+      "longitud": 1.4012455,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 529
+    },
+    {
+      "carretera": "B-20",
+      "pk_km": 2.33,
+      "imd": 153790,
+      "latitud": 41.3386416,
+      "longitud": 2.086579,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 530
+    },
+    {
+      "carretera": "B-30",
+      "pk_km": 5.68,
+      "imd": 65202,
+      "latitud": 41.4877893,
+      "longitud": 2.0744847,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 531
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1210.3,
+      "imd": 32754,
+      "latitud": 41.3341197,
+      "longitud": 1.6918166,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 532
+    },
+    {
+      "carretera": "A-7",
+      "pk_km": 1159.0,
+      "imd": 44168,
+      "latitud": 41.1316295,
+      "longitud": 1.2085012,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 533
+    },
+    {
+      "carretera": "N-420A",
+      "pk_km": 814.0,
+      "imd": 11,
+      "latitud": 41.1020474,
+      "longitud": 0.5483479,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 534
+    },
+    {
+      "carretera": "N-420A",
+      "pk_km": 823.5,
+      "imd": 519,
+      "latitud": 41.0910928,
+      "longitud": 0.645796,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 535
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 183.0,
+      "imd": 102140,
+      "latitud": 41.418507,
+      "longitud": 1.7946477,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 536
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 209.35,
+      "imd": 75880,
+      "latitud": 41.2831748,
+      "longitud": 1.5758109,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 537
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 217.16,
+      "imd": 61727,
+      "latitud": 41.2297599,
+      "longitud": 1.5263817,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 538
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 228.3,
+      "imd": 72146,
+      "latitud": 41.1777369,
+      "longitud": 1.4286087,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 539
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 238.38,
+      "imd": 66489,
+      "latitud": 41.1389911,
+      "longitud": 1.3303551,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 540
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 248.9,
+      "imd": 57599,
+      "latitud": 41.1444517,
+      "longitud": 1.2111191,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 541
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 195.9,
+      "imd": 68637,
+      "latitud": 41.3312488,
+      "longitud": 1.709584,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 542
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 205.2,
+      "imd": 71503,
+      "latitud": 41.304528,
+      "longitud": 1.6131525,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 543
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 186.0,
+      "imd": 96944,
+      "latitud": 41.3972677,
+      "longitud": 1.7741902,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 544
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 194.7,
+      "imd": 82684,
+      "latitud": 41.340045,
+      "longitud": 1.7172864,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 545
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 32.242,
+      "imd": 47646,
+      "latitud": 42.1976807,
+      "longitud": 2.9335036,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 546
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 122.7,
+      "imd": 22672,
+      "latitud": 41.5116973,
+      "longitud": 0.4348118,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 547
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 136.9,
+      "imd": 20276,
+      "latitud": 41.5502216,
+      "longitud": 0.5842095,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 548
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 160.2,
+      "imd": 20322,
+      "latitud": 41.509677,
+      "longitud": 0.8352073,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 549
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 168.7,
+      "imd": 21836,
+      "latitud": 41.4521721,
+      "longitud": 0.8984753,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 550
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 190.7,
+      "imd": 21517,
+      "latitud": 41.4037521,
+      "longitud": 1.1395915,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 551
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 194.6,
+      "imd": 15722,
+      "latitud": 41.3864794,
+      "longitud": 1.1785945,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 552
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 214.45,
+      "imd": 16207,
+      "latitud": 41.3062177,
+      "longitud": 1.3437622,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 553
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 222.3,
+      "imd": 20118,
+      "latitud": 41.2887645,
+      "longitud": 1.4228421,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 554
+    },
+    {
+      "carretera": "AP-2",
+      "pk_km": 231.1,
+      "imd": 23666,
+      "latitud": 41.2738813,
+      "longitud": 1.5223929,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 555
+    },
+    {
+      "carretera": "A-26",
+      "pk_km": 76.548,
+      "imd": 16983,
+      "latitud": 42.2206529,
+      "longitud": 2.5700523,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 556
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 159.15,
+      "imd": 160656,
+      "latitud": 41.4614415,
+      "longitud": 2.0241971,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 557
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 4.2,
+      "imd": 36550,
+      "latitud": 42.427944,
+      "longitud": 2.8647344,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 558
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 103.0,
+      "imd": 71330,
+      "latitud": 41.7164378,
+      "longitud": 2.5622255,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 559
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 254.9,
+      "imd": 46657,
+      "latitud": 41.1219644,
+      "longitud": 1.1481343,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 560
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 18.95,
+      "imd": 41123,
+      "latitud": 42.3136424,
+      "longitud": 2.9449701,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 561
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 0.138,
+      "imd": 43240,
+      "latitud": 42.4635187,
+      "longitud": 2.8656918,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 562
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 24.582,
+      "imd": 34238,
+      "latitud": 42.2645929,
+      "longitud": 2.9416177,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 563
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 42.05,
+      "imd": 51682,
+      "latitud": 42.1143576,
+      "longitud": 2.913051,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 564
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 50.113,
+      "imd": 55635,
+      "latitud": 42.0502945,
+      "longitud": 2.8745414,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 565
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 58.686,
+      "imd": 80519,
+      "latitud": 42.0021467,
+      "longitud": 2.8047573,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 566
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 62.734,
+      "imd": 90098,
+      "latitud": 41.9723764,
+      "longitud": 2.7782108,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 567
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 65.725,
+      "imd": 82047,
+      "latitud": 41.9467445,
+      "longitud": 2.7884461,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 568
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 69.228,
+      "imd": 51819,
+      "latitud": 41.9178697,
+      "longitud": 2.7746733,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 569
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 78.098,
+      "imd": 49864,
+      "latitud": 41.8438861,
+      "longitud": 2.7480118,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 570
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 88.86,
+      "imd": 69790,
+      "latitud": 41.7581865,
+      "longitud": 2.7141481,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 571
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 116.0,
+      "imd": 84702,
+      "latitud": 41.6501037,
+      "longitud": 2.4386688,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 572
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 125.65,
+      "imd": 104787,
+      "latitud": 41.6073641,
+      "longitud": 2.3433663,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 573
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 129.5,
+      "imd": 111470,
+      "latitud": 41.5885716,
+      "longitud": 2.3044924,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 574
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 134.05,
+      "imd": 126006,
+      "latitud": 41.5612098,
+      "longitud": 2.2685563,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 575
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 137.0,
+      "imd": 96684,
+      "latitud": 41.5526532,
+      "longitud": 2.2367328,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 576
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 139.0,
+      "imd": 132777,
+      "latitud": 41.5500794,
+      "longitud": 2.2156598,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 577
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 140.85,
+      "imd": 134468,
+      "latitud": 41.5457853,
+      "longitud": 2.1951493,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 578
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 143.0,
+      "imd": 146844,
+      "latitud": 41.5367956,
+      "longitud": 2.1722438,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 579
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 144.95,
+      "imd": 152643,
+      "latitud": 41.5223256,
+      "longitud": 2.1617013,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 580
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 147.0,
+      "imd": 154194,
+      "latitud": 41.5121649,
+      "longitud": 2.1408973,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 581
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 148.7,
+      "imd": 92492,
+      "latitud": 41.5044674,
+      "longitud": 2.1234814,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 582
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 153.6,
+      "imd": 118423,
+      "latitud": 41.4886303,
+      "longitud": 2.0715498,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 583
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 155.8,
+      "imd": 100778,
+      "latitud": 41.4832331,
+      "longitud": 2.0481857,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 584
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 164.5,
+      "imd": 104918,
+      "latitud": 41.4595639,
+      "longitud": 1.9811318,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 585
+    },
+    {
+      "carretera": "AP-7",
+      "pk_km": 173.0,
+      "imd": 107732,
+      "latitud": 41.459559,
+      "longitud": 1.8938198,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 586
+    },
+    {
+      "carretera": "LL-11",
+      "pk_km": 4.06,
+      "imd": 19068,
+      "latitud": 41.6250378,
+      "longitud": 0.7140777,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 587
+    },
+    {
+      "carretera": "LL-12",
+      "pk_km": 2.05,
+      "imd": 17198,
+      "latitud": 41.5747198,
+      "longitud": 0.6226844,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 588
+    },
+    {
+      "carretera": "A-22",
+      "pk_km": 14.8,
+      "imd": 10441,
+      "latitud": 41.7218531,
+      "longitud": 0.4237848,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 589
+    },
+    {
+      "carretera": "A-2",
+      "pk_km": 581.1,
+      "imd": 63956,
+      "latitud": 41.5305286,
+      "longitud": 1.8763215,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 590
+    },
+    {
+      "carretera": "N-340",
+      "pk_km": 1216.7,
+      "imd": 8914,
+      "latitud": 41.3582886,
+      "longitud": 1.7561765,
+      "coordinate_source": "Carreteres Catalunya · Ministeri 2024",
+      "chart_row": 591
+    }
+  ]
+}
