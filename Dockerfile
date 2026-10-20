@@ -7,7 +7,7 @@ WORKDIR /app
 RUN corepack enable
 
 COPY . .
-RUN pnpm install --no frozen-lockfile
+RUN pnpm install --no-frozen-lockfile
 RUN PORT=8080 BASE_PATH=/ pnpm --filter @workspace/racc-mobility run build
 
 # Run FastAPI and serve the built frontend from the same container.
