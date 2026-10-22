@@ -38,7 +38,7 @@ COMARQUES_URL = (
 
 PRECIPITACIO_URL = (
     "https://analisi.transparenciacatalunya.cat/resource/"
-    "7bvh-jvq2/query.json"
+    "7bvh-jvq2.json"
 )
 
 # La font meteorològica pot publicar les dades amb retard.
@@ -344,16 +344,17 @@ def descarregar_precipitacio() -> Tuple[Dict[str, float], str, str]:
     data = data_dt.strftime("%Y-%m-%d")
     primer_dia_mes = data_dt.replace(day=1).strftime("%Y-%m-%d")
 
-    consulta_mes = (
-        "SELECT codi_estacio, nom_estacio, SUM(valor) AS acumulat "
-        "WHERE codi_variable = '1304' "
-        f"AND data_lectura BETWEEN '{primer_dia_mes}' AND '{data}' "
-        "GROUP BY codi_estacio, nom_estacio"
-    )
-
     dades_mes = obtenir_json(
         PRECIPITACIO_URL,
-        params={"query": consulta_mes},
+        params={
+            "$select": "codi_estacio, nom_estacio, sum(valor) as acumulat",
+            "$where": (
+                "codi_variable = '1304' "
+                f"AND data_lectura between '{primer_dia_mes}' and '{data}'"
+            ),
+            "$group": "codi_estacio, nom_estacio",
+            "$limit": "5000",
+        },
     )
 
     valors_per_comarca: Dict[str, List[float]] = defaultdict(list)
