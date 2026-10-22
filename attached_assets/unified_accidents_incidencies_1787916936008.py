@@ -37,7 +37,7 @@ COMARQUES_URL = (
 )
 
 PRECIPITACIO_URL = (
-    "https://analisi.transparenciacatalunya.cat/api/v3/views/"
+    "https://analisi.transparenciacatalunya.cat/resource/"
     "7bvh-jvq2/query.json"
 )
 
@@ -201,7 +201,6 @@ ESTACIONS_COMARCA: Dict[str, str] = {
     "Sant Cugat del Vallès - CAR": "Vallès Occidental",
     "Anglesola - Tornabous": "Urgell",
     "Alcarràs": "Segrià",
-    "Torroella de Fluvià": "Alt Empordà",
     "Alinyà": "Alt Urgell",
     "Navata": "Alt Empordà",
     "Tivissa": "Ribera d'Ebre",
