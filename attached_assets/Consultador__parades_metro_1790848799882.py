@@ -6,7 +6,8 @@ from datetime import datetime
 # CONFIGURACIÓ
 # ============================================================
 
-
+APP_ID = "c0ff976e"
+APP_KEY = "2eb77e71d3156dc0461ec6c1093dd8d4"
 
 ENDPOINT = "https://api.tmb.cat/v1/itransit/metro/estacions"
 
