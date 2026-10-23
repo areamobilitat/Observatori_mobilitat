@@ -25,9 +25,11 @@ interface Incidencia {
   sentit?: string;
   cap_a?: string;
 }
-#--------------------------
-#aqui posem el codi del filtre!!!!!!
-#----------------------------
+// --------------------------
+
+// aqui posem el codi del filtre!!!!!!
+
+// --------------------------
 const severityColor = (nivell?: number): string => {
   if (!nivell) return '#3498db';
   if (nivell >= 4) return '#e74c3c';
