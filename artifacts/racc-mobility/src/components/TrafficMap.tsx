@@ -179,12 +179,12 @@ const TrafficMap: React.FC = () => {
             <Popup>
               <div className="incident-popup">
                 <strong>{inc.carretera || 'Carretera desconeguda'}</strong>
-                {inc.descripcio_tipus && <p>📌 {inc.descripcio_tipus}</p>}
-                {inc.causa && <p>⚠️ {inc.causa}</p>}
-                {inc.descripcio && <p>📝 {inc.descripcio}</p>}
-                {inc.sentit && <p>➡️ Sentit: {inc.sentit}</p>}
-                {inc.cap_a && <p>🏁 Cap a: {inc.cap_a}</p>}
-                {inc.data && <p>🗓️ {inc.data}</p>}
+                {inc.descripcio_tipus && <p> {inc.descripcio_tipus}</p>}
+                {inc.causa && <p> {inc.causa}</p>}
+                {inc.descripcio && <p> {inc.descripcio}</p>}
+                {inc.sentit && <p> Sentit: {inc.sentit}</p>}
+                {inc.cap_a && <p> Cap a: {inc.cap_a}</p>}
+                {inc.data && <p> {inc.data}</p>}
                 {inc.nivell !== undefined && (
                   <span className="popup-nivel" style={{ background: severityColor(inc.nivell) }}>
                     Nivell {inc.nivell}
