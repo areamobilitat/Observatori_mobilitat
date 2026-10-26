@@ -28,6 +28,73 @@ interface Incidencia {
 // --------------------------
 
 // aqui posem el codi del filtre!!!!!!
+const incidentFilterFields = [
+  'identificador',
+  'descripcio_tipus',
+  'tipus',
+  'subtipus',
+  'carretera',
+  'pk_inici',
+  'pk_fi',
+  'causa',
+  'nivell',
+  'sentit',
+  'cap_a',
+  'descripcio',
+  'data',
+  'font',
+] as const;
+
+type IncidentFilterField = typeof incidentFilterFields[number];
+type FilterField = 'all' | IncidentFilterField;
+
+interface IncidentFilter {
+  id: number;
+  field: FilterField;
+  value: string;
+}
+
+type IncidentFilterField = typeof incidentFilterFields[number];
+type FilterField = 'all' | IncidentFilterField;
+
+interface IncidentFilter {
+  id: number;
+  field: FilterField;
+  value: string;
+}
+
+const filterFieldOptions: { value: FilterField; label: string }[] = [
+  { value: 'all', label: 'Tots els camps' },
+  { value: 'descripcio_tipus', label: 'Categoria' },
+  { value: 'tipus', label: 'Tipus (codi)' },
+  { value: 'subtipus', label: 'Subtipus' },
+  { value: 'carretera', label: 'Carretera' },
+  { value: 'causa', label: 'Causa' },
+  { value: 'nivell', label: 'Nivell' },
+  { value: 'sentit', label: 'Sentit' },
+  { value: 'cap_a', label: 'Cap a' },
+  { value: 'descripcio', label: 'Descripció' },
+  { value: 'data', label: 'Data' },
+  { value: 'identificador', label: 'Identificador SCT' },
+  { value: 'pk_inici', label: 'PK inici' },
+  { value: 'pk_fi', label: 'PK fi' },
+  { value: 'font', label: 'Font' },
+];
+
+const displayValue = (value: string | number | undefined) =>
+  value === undefined || value === null ? '' : String(value);
+
+const rowFilterText = (incident: Incidencia, field: FilterField) => {
+  if (field === 'all') {
+    return incidentFilterFields
+      .map(attribute => displayValue(incident[attribute]))
+      .join(' ');
+  }
+  return displayValue(incident[field]);
+};
+
+const filterFieldLabel = (field: FilterField) =>
+  filterFieldOptions.find(option => option.value === field)?.label ?? 'Tots els camps';
 
 // --------------------------
 const severityColor = (nivell?: number): string => {
