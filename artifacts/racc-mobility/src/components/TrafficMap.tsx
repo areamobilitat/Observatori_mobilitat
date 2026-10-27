@@ -19,8 +19,12 @@ interface Incidencia {
   tipus?: string | number;
   subtipus?: string | number;
   carretera?: string;
-  pk_inici?: string | number;
-  pk_fi?: string | number;
+  pk_inici?: string | number | null;
+  pk_fi?: string | number | null;
+  pk_final?: string | number | null;
+  Pk_inici?: string | number | null;
+  Pk_final?: string | number | null;
+  Longitud?: number | null;
   causa?: string;
   data?: string;
   nivell?: number;
@@ -30,6 +34,23 @@ interface Incidencia {
   font?: string;
   cap_a?: string;
 }
+
+const parsePk = (value: number | string | null | undefined): number | null => {
+  if (typeof value === 'number') return Number.isFinite(value) ? value : null;
+  if (typeof value !== 'string' || value.trim() === '') return null;
+
+  const parsed = Number(value.trim().replace(',', '.'));
+  return Number.isFinite(parsed) ? parsed : null;
+};
+
+const calculateLongitud = (incident: Incidencia): number | null => {
+  const pkInici = parsePk(incident.pk_inici ?? incident.Pk_inici);
+  const pkFinal = parsePk(incident.pk_fi ?? incident.pk_final ?? incident.Pk_final);
+
+  return pkInici === null || pkFinal === null
+    ? null
+    : Math.abs(pkFinal - pkInici);
+};
 
 const incidentFilterFields = [
   'identificador',
@@ -75,7 +96,7 @@ const filterFieldOptions: { value: FilterField; label: string }[] = [
   { value: 'font', label: 'Font' },
 ];
 
-const displayValue = (value: string | number | undefined) =>
+const displayValue = (value: string | number | null | undefined) =>
   value === undefined || value === null ? '' : String(value);
 
 const rowFilterText = (incident: Incidencia, field: FilterField) => {
@@ -118,6 +139,7 @@ const TrafficMap: React.FC = () => {
   const [filterField, setFilterField] = useState<FilterField>('all');
   const [filterValue, setFilterValue] = useState('');
   const [filters, setFilters] = useState<IncidentFilter[]>([]);
+  const [longitudeFilter, setLongitudeFilter] = useState('');
   const nextFilterId = useRef(0);
 
   useEffect(() => {
@@ -126,7 +148,11 @@ const TrafficMap: React.FC = () => {
         const res = await fetch('/api/incidencias');
         const data = await res.json();
         const all: Incidencia[] = data.incidencias ?? [];
-        setIncidents(all.filter(i => Number.isFinite(i.latitud) && Number.isFinite(i.longitud)));
+        const withLongitud = all.map(incident => ({
+          ...incident,
+          Longitud: calculateLongitud(incident),
+        }));
+        setIncidents(withLongitud.filter(i => Number.isFinite(i.latitud) && Number.isFinite(i.longitud)));
       } catch (e) {
         setError('No s\'han pogut carregar les incidències.');
       } finally {
@@ -148,7 +174,7 @@ const TrafficMap: React.FC = () => {
       .slice(0, 100);
   }, [incidents, filterField]);
 
-  const filteredIncidents = useMemo(
+  const filteredByAttributes = useMemo(
     () => incidents.filter(incident =>
       filters.every(filter =>
         rowFilterText(incident, filter.field).toLocaleLowerCase().includes(filter.value.toLocaleLowerCase()),
@@ -156,6 +182,19 @@ const TrafficMap: React.FC = () => {
     ),
     [incidents, filters],
   );
+
+  const desiredLongitud = Number(longitudeFilter);
+  const hasLongitudeFilter =
+    longitudeFilter.trim() !== '' && Number.isFinite(desiredLongitud);
+  const filteredIncidents = useMemo(
+    () => filteredByAttributes.filter(incident => {
+      if (!hasLongitudeFilter) return true;
+      if (incident.Longitud === null || incident.Longitud === undefined) return false;
+      return incident.Longitud > desiredLongitud;
+    }),
+    [filteredByAttributes, hasLongitudeFilter, desiredLongitud],
+  );
+  const hasAnyFilters = filters.length > 0 || hasLongitudeFilter;
 
   const addFilter = () => {
     const value = filterValue.trim();
@@ -247,13 +286,40 @@ const TrafficMap: React.FC = () => {
         <span className="legend-badge" style={{ background: '#f39c12' }}>Nivell 2</span>
         <span className="legend-badge" style={{ background: '#e67e22' }}>Nivell 3</span>
         <span className="legend-badge" style={{ background: '#e74c3c' }}>Nivell 4+</span>
-        <span className="legend-count">
-          {filters.length
+        <div className="traffic-map-longitude-filter">
+          <label htmlFor="traffic-map-longitud-filter">Longitud superior a (km)</label>
+          <div className="traffic-map-longitude-controls">
+            <input
+              id="traffic-map-longitud-filter"
+              data-testid="input-longitud-filter"
+              type="number"
+              min="0"
+              step="any"
+              value={longitudeFilter}
+              onChange={event => setLongitudeFilter(event.currentTarget.value)}
+              placeholder="p. ex. 2"
+              aria-label="Filtra per longitud calculada superior al valor indicat"
+            />
+            {longitudeFilter !== '' && (
+              <button
+                type="button"
+                data-testid="button-clear-longitud-filter"
+                aria-label="Neteja el filtre de longitud"
+                onClick={() => setLongitudeFilter('')}
+              >
+                Neteja
+              </button>
+            )}
+          </div>
+          <small>Calculada com |PK final − PK inici|</small>
+        </div>
+        <span className="legend-count" data-testid="text-visible-incident-count">
+          {hasAnyFilters
             ? `${filteredIncidents.length} de ${incidents.length} incidents mostrats`
             : `${incidents.length} incidents actius`}
         </span>
       </div>
-      {filters.length > 0 && filteredIncidents.length === 0 && (
+      {hasAnyFilters && filteredIncidents.length === 0 && (
         <div className="traffic-map-empty" role="status">
           Cap incidència coincideix amb els filtres actius.
         </div>
@@ -283,6 +349,11 @@ const TrafficMap: React.FC = () => {
                 {inc.sentit && <p>➡️ Sentit: {inc.sentit}</p>}
                 {inc.cap_a && <p>🏁 Cap a: {inc.cap_a}</p>}
                 {inc.data && <p>🗓️ {inc.data}</p>}
+                {inc.Longitud !== null && inc.Longitud !== undefined && (
+                  <p>
+                    Longitud del tram: {inc.Longitud.toLocaleString('ca-ES', { maximumFractionDigits: 3 })} km
+                  </p>
+                )}
                 {inc.nivell !== undefined && (
                   <span className="popup-nivel" style={{ background: severityColor(inc.nivell) }}>
                     Nivell {inc.nivell}
