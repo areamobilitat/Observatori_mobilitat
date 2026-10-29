@@ -20,10 +20,9 @@ from zoneinfo import ZoneInfo
 from analizar_dataset_1 import extraer_incidencias
 from amb_metro import build_amb_metro_payload
 
-# The uploaded probability pipeline is intentionally kept as the source of
-# truth for this feature. It uses only the standard library and live public
-# data sources, so the API can reuse it without introducing another model or
-# data copy.
+# Cal tenir en compte que SQL guarda les dades a una base de dades externa per tal d'evitar que aquestes es perdin en cas d'error/traspás en el servidor, usant NEON
+#
+
 ATTACHED_ASSETS_DIR = Path(__file__).resolve().parents[2] / "attached_assets"
 if str(ATTACHED_ASSETS_DIR) not in sys.path:
     sys.path.insert(0, str(ATTACHED_ASSETS_DIR))
@@ -65,7 +64,7 @@ _registry_last_refresh = 0.0
 _registry_refresh_lock = threading.Lock()
 _registry_refresh_task = None
 
-# ─── SQLModel tables ──────────────────────────────────────────────────────────
+# ─── Bases de dades SQL ─────────────────────────────────────────────────────────
 
 class IncidentRegistry(SQLModel, table=True):
     """Historical SCT incident registry; coordinates are intentionally omitted."""
