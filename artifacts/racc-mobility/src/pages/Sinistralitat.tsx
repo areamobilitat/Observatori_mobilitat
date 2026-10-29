@@ -82,11 +82,7 @@ const Sinistralitat: React.FC = () => {
             <span className="grafana-embed-header__title">Grafana · RACC Mobility Dashboard</span>
             <span className="grafana-embed-header__live">● LIVE</span>
           </div>
-          <div className="grafana-embed-header__right">
-            <span className="grafana-embed-header__hint">
-              {grafanaExpanded ? 'Collapse' : 'Expand'}
-            </span>
-            <span className="grafana-embed-header__chevron" style={{ transform: grafanaExpanded ? 'rotate(180deg)' : 'none' }}>▾</span>
+          
           </div>
         </div>
         {grafanaExpanded && (
